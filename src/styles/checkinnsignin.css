@@ -1,0 +1,295 @@
+.checkinnsignin-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .checkinnsignin-checkinnsignin {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 1);
+  }
+  .checkinnsignin-group {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .checkinnsignin-frame {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .checkinnsignin-bgcolor {
+    top: 1024px;
+    left: 0px;
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+    background-color: rgba(255, 246, 238, 0.20000000298023224);
+  }
+  .checkinnsignin-checkinnsigninpic {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1014px;
+    position: absolute;
+  }
+  .checkinnsignin-contents {
+    top: 65px;
+    left: 65px;
+    width: 1310px;
+    height: 911px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 1;
+    justify-content: center;
+  }
+  .checkinnsignin-signin {
+    top: 210px;
+    left: 305px;
+    width: 700px;
+    height: 649px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-shrink: 1;
+    border-radius:10px;
+    justify-content: center;
+    background-color: rgba(255, 246, 238, 0.20000000298023224);
+  }
+  .checkinnsignin-signincontents {
+    top: 60px;
+    left: 149px;
+    width: 401px;
+    height: 509px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .checkinnsignin-container1 {
+    flex: 0 0 auto;
+    width: 400px;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .checkinnsignin-help {
+    top: 490px;
+    left: 1px;
+    width: 400px;
+    height: 19px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .checkinnsignin-rememberme {
+    top: 0px;
+    left: 0px;
+    width: 119px;
+    height: 19px;
+    display: flex;
+ 
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .checkinnsignin-text {
+    left: 21px;
+    color: rgb(255, 255, 255);
+    height: auto;
+    position: absolute;
+    font-size: 17px;
+    font-style: normal;
+    white-space: nowrap;
+    font-family: Outfit;
+    font-weight: 200;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .checkinnsignin-text1 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+    
+  .checkinnsignin-select1 {
+    color: #000000;
+    font-size: 25px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 400;
+    top: 85px;
+    left: -10px;
+    width: 410px;
+    height: 50px;
+    position: absolute;
+    transition: 0.3s;
+    border-color: #b7b7b7;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: #ffffff0d;
+}
+
+.checkinnsignin-select:hover {
+  background-color: rgba(183, 183, 183, 0.2);
+}
+  .checkinnsignin-textinput {
+    color: #000000;
+    font-size: 25px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 400;
+    right: -1px;
+    width: 400px;
+    bottom: -250px;
+    height: 50px;
+    position: absolute;
+    transition: 0.3s;
+    padding-top: 0px;
+    border-color: #b7b7b7;
+    border-width: 1px;
+    border-radius:5px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+  }
+  .checkinnsignin-textinput:focus {
+background-color: rgba(183, 183, 183, 0.2);
+  }
+  .checkinnsignin-textinput1 {
+    color: #000000;
+    font-size: 25px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 400;
+    right: -1px;
+    width: 400px;
+    bottom: -368px;
+    height: 50px;
+    position: absolute;
+    transition: 0.3s;
+    padding-top: 0px;
+    border-color: #b7b7b7;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-radius:5px;
+    background-color: transparent;
+  }
+  .checkinnsignin-textinput1:focus {
+    background-color: rgba(183, 183, 183, 0.2);
+      }
+  
+  .checkinnsignin-checkbox {
+    left: 0px;
+    bottom: -511px;
+    position: absolute;
+  }
+  .checkinnsignin-checkbox:hover {
+opacity: .5;
+  }
+  .checkinnsignin-button {
+    left: 0px;
+    color: #ffffff;
+    width: 400px;
+    bottom: -485px;
+    height: 50px;
+    position: absolute;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    border: none;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #226622;
+  }
+  .checkinnsignin-button:hover {
+  opacity: .7;
+  }
+  .checkinnsignin-select {
+    color: #000000;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Outfit;
+    top: 85px;
+    left: -10px;
+    width: 410px;
+    height: 50px;
+    position: absolute;
+    transition: 0.3s;
+    border-color: #b7b7b7;
+    border-width: 1px;
+    border-radius:5px;
+    padding-left: 5px;
+    border-radius:5px;
+    background-color: #ffffff0d;
+  }
+  
+  .checkinnsignin-button1 {
+    left: 305px;
+    color: rgb(255, 255, 255);
+    bottom: 2px;
+    position: absolute;
+    font-size: 17px;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 200;
+    line-height: 1;
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: transparent;
+  }
+  .checkinnsignin-button1:hover {
+  opacity: .5;
+  }
+
+  .checkinnsignin-checkinnsigninlogo {
+    top: 20px;
+    left: 51.75px;
+    width: 101px;
+    height: 90px;
+    position: absolute;
+  }
+  

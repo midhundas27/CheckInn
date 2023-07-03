@@ -1,0 +1,331 @@
+.checkinnstudentmesscut-container {
+    width: 1440px;
+height: 1024px;
+    display: flex;
+  
+    flex-direction: column;
+    background-color: rgba(255, 246, 238);
+    }
+    .checkinnstudenthome-logopicstudenthome {
+        top: 85px;
+        left: 1222px;
+     
+        position: absolute;
+      }
+    .checkinnstudentmesscut-sidebarbox {
+        
+        width: 192px;
+        height: 100%;
+       
+        background-color: #226622;}
+         
+  .navigation {
+    margin-top: 20px;
+  }
+        .sidebar-menu {
+            width: 192px;
+            height: 1024px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+          .active11{
+           top: 305px;
+            left: 71px;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            display: flex;
+          }
+        .active11:hover{
+          opacity: .6;
+        }
+          .icon11{
+            top: 305px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffa74f;
+          }
+          .menu-text11{
+            top: 50px;
+            left: -22px;
+             color: #ffa74f;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .menu-text11:hover{
+            opacity: .6;
+          }
+          .active22{
+            top: 505px;
+             left: 71px;
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             display: flex;
+           }
+           .active22:hover{
+            opacity: .6;
+          }
+          .icon22{
+            top: 505px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffffff;
+          }
+          .menu-text22{
+            top: 50px;
+            left: -34px;
+             color: #ffffff;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .menu-text22:hover{
+            opacity: .6;
+          }
+          .active33{
+            top: 705px;
+             left: 71px;
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             display: flex;
+           }
+           .active33:hover{
+            opacity: .6;
+          }
+          .icon33{
+            top: 705px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffffff;
+          }
+          .menu-text33{
+            top: 50px;
+            left: -20px;
+             color: #ffffff;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .menu-text33:hover{
+            opacity: .6;
+          }
+         
+h1 {
+    
+    top: 150px;
+    left: 350px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+.current-date
+{
+    top: 288px;
+    left: 350px;
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+   
+}
+.day{
+    padding:12px;
+}
+
+.month-year{
+    padding:3.5px;
+}
+
+
+.react-calendar {
+     top: 320px;
+    left: 350px;
+    position: absolute;
+    width: 700px;
+    
+    background: #ffffff;
+    border: 5px solid #266221;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.125em;
+    height: 570px;
+}
+.react-calendar__navigation {
+    display: flex;
+    height: 75px;
+    margin-bottom: 1em;
+}
+.react-calendar button {
+    color: #266221;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: Outfit;
+    margin-top: 2vw;
+    border: 0;
+    outline: none;
+}
+.react-calendar__month-view__weekdays {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Outfit;
+    font-size: 20px;
+    color: #ffa74f
+}
+
+.react-calendar__tile--now {
+    background: #ffa74f;
+}
+.react-calendar__tile--active {
+    background: transparent;
+}
+
+.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
+    background: #eeff00;
+}
+.toggle-container
+{
+    top:415px;
+    left: 1080px;
+    width: 280px;
+    height: 380px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 8px;
+}
+.toggle-switch1
+  {
+    top: 54px;
+    left: 30px;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+  }
+  .toggle-text1
+  {
+    top: 50px;
+    left: 110px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 510;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+  }
+  .toggle-switch2
+  {
+    top: 104px;
+    left: 30px;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+  }
+  .toggle-text2
+  {
+    top: 100px;
+    left: 110px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 510;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+  }
+  .toggle-switch3
+  {
+    top: 154px;
+    left: 30px;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+  }
+  .toggle-text3
+  {
+    top: 150px;
+    left: 110px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 510;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+  }
+  .selected-meal
+  {
+    top: 200px;
+    left: 30px;
+     color: #000000;
+     font-size: 20px;
+     font-family: Outfit;
+     font-weight: 510;
+     position: absolute;
+     
+     display: flex;
+  }
+  .selected-date
+  {
+    top: 260px;
+    left: 30px;
+     color: #000000;
+     font-size: 20px;
+     font-family: Outfit;
+     font-weight: 510;
+     position: absolute;
+     display: flex;
+  }
+  .submit-button {
+    top: 310px;
+    left: 90px;
+    color: #ffffff;
+    width: 100px;
+    height: 35px;
+    position: absolute;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+    border-radius:7px;
+    border-width: 2px;
+    border-color: #622145;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: #226621;
+  }
+  .submit-button:hover {
+  opacity: .7;
+}
