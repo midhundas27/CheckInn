@@ -6,6 +6,7 @@ import Checkinnhome from './../pages/checkinnhome';
 import Checkinnsignin from './../pages/checkinnsignin';
 import Checkinnstudenthome from './../pages/checkinnstudenthome';
 import Checkinnstudentmesscut from '../pages/checkinnstudentmesscut';
+import Checkinnstudentmessbill from '../pages/checkinnstudentmessbill';
 
 /*import Login from './../pages/Login'
 import Register from './../pages/Register'
@@ -24,7 +25,7 @@ const Routers = () => {
         <Route path='/checkinnsignin' element={<Checkinnsignin/>} />
         <Route path='/checkinnstudenthome' element={<Checkinnstudenthome/>} />
         <Route path='/checkinnstudentmesscut' element={<Checkinnstudentmesscut/>} />
-        
+        <Route path='/checkinnstudentmessbill' element={<Checkinnstudentmessbill/>} />
         {/* <Route path='/settings' element={<Settings/>} /> */}
 
       </Routes>

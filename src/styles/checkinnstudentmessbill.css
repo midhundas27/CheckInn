@@ -1,0 +1,142 @@
+.checkinnstudentmessbill-container {
+    width: 1440px;
+height: 1024px;
+    display: flex;
+  
+    flex-direction: column;
+    background-color: rgba(255, 246, 238);
+    }
+    .checkinnstudenthome-logopicstudenthome {
+        top: 85px;
+        left: 1222px;
+     
+        position: absolute;
+      }
+    .checkinnstudentmessbill-sidebarbox {
+        
+        width: 192px;
+        height: 100%;
+       
+        background-color: #226622;}
+         
+  .messbill-navigation {
+    margin-top: 20px;
+  }
+        .messbill-sidebarmenu {
+            width: 192px;
+            height: 1024px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+          .messbill-active11{
+           top: 305px;
+            left: 71px;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            display: flex;
+          }
+        .messbill-active11:hover{
+          opacity: .6;
+        }
+          .messbill-icon11{
+            top: 305px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffffff;
+          }
+          .messbillmenu-text11{
+            top: 50px;
+            left: -22px;
+             color: #ffffff;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .messbillmenu-text11:hover{
+            opacity: .6;
+          }
+          .messbill-active22{
+            top: 505px;
+             left: 71px;
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             display: flex;
+           }
+           .messbill-active22:hover{
+            opacity: .6;
+          }
+          .messbill-icon22{
+            top: 505px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffffff;
+          }
+          .messbillmenu-text22{
+            top: 50px;
+            left: -34px;
+             color: #ffffff;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .messbillmenu-text22:hover{
+            opacity: .6;
+          }
+          .messbill-active33{
+            top: 705px;
+             left: 71px;
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             display: flex;
+           }
+           .messbill-active33:hover{
+            opacity: .6;
+          }
+          .messbill-icon33{
+            top: 705px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffa74f;
+          }
+          .messbillmenu-text33{
+            top: 50px;
+            left: -20px;
+             color: #ffa74f;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .messbillmenu-text33:hover{
+            opacity: .6;
+          }
+          h1 {
+    
+            top: 150px;
+            left: 350px;
+            position: absolute;
+            font-size: 40px;
+            font-style: Bold;
+            font-family: Outfit;
+            font-weight: 700;
+            font-stretch: normal;
+            text-decoration: none;
+        }
