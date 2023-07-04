@@ -50,7 +50,7 @@ height: 1024px;
           }
           .messbillmenu-text11{
             top: 50px;
-            left: -22px;
+            left: -52px;
              color: #ffffff;
              font-size: 25px;
              font-family: Outfit;
@@ -140,3 +140,76 @@ height: 1024px;
             font-stretch: normal;
             text-decoration: none;
         }
+        
+.form-container {
+  width: 600px;
+  height: 575px;
+  top: 305px;
+  left: 355px;
+  position: absolute;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 575px;
+  border-radius: 10px;
+
+
+}
+
+.form-container label,
+.form-container select {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 60px;
+  left: 0px;
+  top: 50px;
+  position: relative;
+  padding: 10px;
+  border-color: #b7b7b7;
+  border-radius: 7px;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.form-container select:focus {
+  background-color: #ffa74f4a;
+    }
+
+.form-container button {
+  top: 475px;
+  left: 170px;
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Outfit;
+  background-color: #266221;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form-container button:hover {
+  opacity: .5;
+}
+
+.active {
+  font-weight: bold;
+}

@@ -45,6 +45,7 @@ const Checkinnstudentmesscut = () => {
               alt="logopicstudenthome2824"
               className="checkinnstudenthome-logopicstudenthome"
             />
+            
         <div className="calendar-container">
           <h1> Mess Calendar</h1>
           <div className="current-date">
@@ -61,9 +62,15 @@ const Checkinnstudentmesscut = () => {
 
             </div>
             <div className="react-calender"></div>
+            
           </div>
           <Calendar onChange={handleDateChangee} />
-          
+          <button
+                    type="button"
+                    className="checkinnstudentmesscut-generate"
+                  >
+                    Get My Details
+                  </button>
           
           <div
             className="toggle-container">
@@ -79,6 +86,7 @@ const Checkinnstudentmesscut = () => {
                 offHandleColor="#fff"
                 uncheckedIcon={false}
                 checkedIcon={false}
+                
               />
               </div>
              <span className="toggle-text1">Breakfast</span>  
@@ -138,7 +146,7 @@ const Checkinnstudentmesscut = () => {
               <li>
                 <NavLink to="/checkinnstudentmesscut" className={"active11"} exact activeClassName="active">
                   <FaRegCalendarCheck className="icon11" />
-                  <span className="menu-text11">mess cut</span>
+                  <span className="menu-text11">mess calender</span>
                 </NavLink>
               </li>
               <li>

@@ -156,6 +156,7 @@
   
     border: 0px;
     border-radius: 6px;
+    cursor: pointer;
     background-color: rgb(38, 98, 33);
   }
   .checkinnhome-button:hover {
@@ -184,6 +185,7 @@
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+    cursor: pointer;
     background-color: transparent;
   }
   .checkinnhome-button1:hover {
@@ -203,6 +205,7 @@
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+    cursor: pointer;
     background-color: transparent;
   }
   .checkinnhome-button2:hover {

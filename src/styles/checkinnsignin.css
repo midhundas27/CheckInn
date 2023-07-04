@@ -160,6 +160,7 @@
     border-radius: 5px;
     padding-left: 5px;
     border-radius: 5px;
+    cursor: pointer;
     background-color: #ffffff0d;
 }
 
@@ -185,6 +186,7 @@
     padding-left: 5px;
     padding-right: 0px;
     padding-bottom: 0px;
+    cursor: pointer;
     background-color: transparent;
   }
   .checkinnsignin-textinput:focus {
@@ -209,6 +211,7 @@ background-color: rgba(183, 183, 183, 0.2);
     padding-right: 0px;
     padding-bottom: 0px;
     border-radius:5px;
+    cursor: pointer;
     background-color: transparent;
   }
   .checkinnsignin-textinput1:focus {
@@ -219,7 +222,10 @@ background-color: rgba(183, 183, 183, 0.2);
     left: 0px;
     bottom: -511px;
     position: absolute;
+    cursor: pointer;
+
   }
+  
   .checkinnsignin-checkbox:hover {
 opacity: .5;
   }
@@ -239,6 +245,7 @@ opacity: .5;
     padding-right: 0px;
     padding-bottom: 0px;
     border-radius: 7px;
+    cursor: pointer;
     box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
     background-color: #226622;
   }
@@ -261,6 +268,7 @@ opacity: .5;
     border-radius:5px;
     padding-left: 5px;
     border-radius:5px;
+    cursor: pointer;
     background-color: #ffffff0d;
   }
   
@@ -279,6 +287,7 @@ opacity: .5;
     border: none;
     padding-right: 0px;
     padding-bottom: 0px;
+    cursor: pointer;
     background-color: transparent;
   }
   .checkinnsignin-button1:hover {
