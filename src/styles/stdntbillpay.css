@@ -1,0 +1,184 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    
+    top: 150px;
+    left: 325px;
+    margin: 25px auto 0 -35px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+    .logopic-stdntbillpay{
+        top: 85px;
+        left: 1222px;
+        width: 101px;
+        height: 90px;
+        position: absolute;
+      }
+    .stdntbillpay-sidebarbox{
+        top: 0px;
+        left: 0px;
+        width: 192px;
+        height: 100%;
+        position: absolute;
+        background-color: #266221;
+    }
+         
+  .stdntbillpay-navigation{
+    margin-top: 20px;
+  }
+        .stdntbillpay-sidebarmenu{
+            width: 192px;
+            height: 1024px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+          .stdntbillpay-active11{
+           top: 313px;
+            left: 71px;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            display: flex;
+          }
+        .stdntbillpay-active11:hover{
+          opacity: .6;
+        }
+          .stdntbillpay-icon11{
+            top: 313px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffa74f;
+          }
+          .stdntbillpaymenu-text11{
+            top: 50px;
+            left: -13px;
+             color: #ffa74f;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .stdntbillpaymenu-text11:hover{
+            opacity: .6;
+          }
+          .stdntbillpay-active22{
+            top: 563px;
+             left: 71px;
+             position: absolute;
+             width: 50px;
+             height: 50px;
+             display: flex;
+           }
+           .stdntbillpay-active22:hover{
+            opacity: .6;
+          }
+          .stdntbillpay-icon22{
+            top: 563px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffffff;
+          }
+          .stdntbillpaymenu-text22{
+            top: 50px;
+            left: -13px;
+             color: #ffffff;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .stdntbillpaymenu-text22:hover{
+            opacity: .6;
+          }
+        
+.stdntbillpay-container2 {
+  width: 600px;
+  height: 575px;
+  top: 290px;
+  left: 279px;
+  position: absolute;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.stdntbillpay-container2 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  height: 575px;
+  border-radius: 10px;
+
+
+}
+
+.stdntbillpay-container2 label,
+.stdntbillpay-container2 select {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 60px;
+  left: 0px;
+  top: 50px;
+  position: relative;
+  padding: 10px;
+  border-color: #b7b7b7;
+  border-radius: 7px;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.stdntbillpay-container2 select:focus {
+  background-color: #ffa74f4a;
+    }
+
+.stdntbillpay-container2 button {
+  top: 475px;
+  left: 170px;
+  width: 300px;
+  height: 50px;
+  position: absolute;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: Outfit;
+  background-color: #266221;
+  color: #ffffff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.stdntbillpay-container2 button:hover {
+  opacity: .5;
+}
+
+.active {
+  font-weight: bold;
+}

@@ -1,19 +1,20 @@
 import React from 'react';
 import {Routes, Route, Navigate} from 'react-router-dom';
 
-import Checkinnlaunch from './../pages/checkinnlaunch';
-import Checkinnhome from './../pages/checkinnhome';
-import Checkinnsignin from './../pages/checkinnsignin';
-import Checkinnstudenthome from './../pages/checkinnstudenthome';
-import Checkinnstudentmesscut from '../pages/checkinnstudentmesscut';
-import Checkinnstudentmessbill from '../pages/checkinnstudentmessbill';
-import Checkinnstudentmessmenu from '../pages/checkinnstudentmessmenu';
-
-/*import Login from './../pages/Login'
-import Register from './../pages/Register'
-import SearchResultList from './../pages/SearchResultList'
-import ThankYou from '../pages/ThankYou'*/
-
+import Checkinnlaunch from '../pages/launch';
+import Checkinnhome from '../pages/home';
+import Checkinnsignin from '../pages/signin';
+import Checkinnstudenthome from '../pages/stdnthome';
+import Checkinnstudentmesscut from '../pages/stdntmesscut';
+import Checkinnstudentmessbill from '../pages/stdntmessbill';
+import Checkinnstudentmessmenu from '../pages/stdntmessmenu';
+import Stdntconnect from '../pages/stdntconnect';
+import Stdntcnctmsg from '../pages/stdntcnctmsg';
+import Stdntcnctcall from '../pages/stdntcnctcall';
+import Stdntnotify from '../pages/stdntnotify';
+import Stdntbillpay from '../pages/stdntbillpay';
+import Stdntpayhis from '../pages/stdntpayhis';
+import Stdntreg from '../pages/stdntreg';
 
 const Routers = () => {
   return (
@@ -28,8 +29,13 @@ const Routers = () => {
         <Route path='/checkinnstudentmesscut' element={<Checkinnstudentmesscut/>} />
         <Route path='/checkinnstudentmessbill' element={<Checkinnstudentmessbill/>} />
         <Route path='/checkinnstudentmessmenu' element={<Checkinnstudentmessmenu/>} />
-        {/* <Route path='/settings' element={<Settings/>} /> */}
-
+        <Route path='/stdntconnect' element={<Stdntconnect/>} />
+        <Route path='/stdntcnctcall' element={<Stdntcnctcall/>} />
+        <Route path='/stdntcnctmsg' element={<Stdntcnctmsg/>} />
+        <Route path='/stdntnotify' element={<Stdntnotify/>} />
+        <Route path='/stdntbillpay' element={<Stdntbillpay/>} />
+        <Route path='/stdntpayhis' element={<Stdntpayhis/>} />
+        <Route path='/stdntreg' element={<Stdntreg/>} />
       </Routes>
     </div>
   )

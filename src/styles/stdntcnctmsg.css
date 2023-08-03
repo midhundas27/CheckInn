@@ -1,0 +1,399 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    
+    top: 150px;
+    left: 350px;
+    margin: 25px auto 0 -35px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+  .stdntconnect-sidebarbox2 {
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 100%;
+    position: absolute;
+    background-color: #266221;
+  }
+  
+  .connect-navigation2 {
+    margin-top: 20px;
+  }
+  
+  .connect-sidebar2{
+    width: 192px;
+    height: 1024px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .active1-111{
+   top: 285px;
+    left: 71px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+.active1-111:hover{
+  opacity: .6;
+}
+  .icon1-111{
+    top: 285px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text1-111{
+    top: 50px;
+    left: -6px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+   }
+   .menu-text1-111:hover{
+    opacity: .6;
+  }
+  .active2-222{
+    top: 435px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active2-222:hover{
+    opacity: .6;
+  }
+  .icon2-222{
+    top: 435px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text2-222{
+    top: 50px;
+    left: -17px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text2-222:hover{
+    opacity: .6;
+  }
+  .active3-333{
+    top: 585px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active3-333:hover{
+    opacity: .6;
+  }
+  .icon3-333{
+    top: 585px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text3-333{
+    top: 50px;
+    left: -40px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text3-333:hover{
+    opacity: .6;
+  }
+  .active4-444{
+    top: 735px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active4-444:hover{
+    opacity: .6;
+  }
+  .icon4-444{
+    top: 735px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffa74f;
+
+  }
+  .menu-text4-444{
+    top: 50px;
+    left: 2px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text4-444:hover{
+    opacity: .6;
+  }
+  .stdntconnect-logopic2{
+    top: 85px;
+    left: 1222px;
+    width: 101px;
+    height: 90px;
+    position: absolute;
+  }
+
+   /* .stdntconnect-switch2{
+    display: block;
+    background-color: #ffffff;
+    margin: 225px auto 0 279px;
+    border-radius: 10px;
+    box-shadow: 4px 0px 4px #0000002e;
+    width: 900px;
+    height: 200px;
+  }
+  .cnct-switch111{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 45px 0px 0px 0px;
+    width: 740px;
+    height: 38px;
+    justify-content: space-between;
+  }
+  .cnct-text111{
+    display: flex;
+    justify-content: left;
+    padding: 0px 545px 0px 0px;
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 500;
+
+  }
+  .cnct-icon111{
+    display: flex;
+    width: 38px;
+    height: 38px;
+    color: #bbbbbb;
+  }
+  .cnct-button111
+  {
+     display: flex;
+     padding: 7px 20px 0px 0px;
+     justify-content: right;
+  }
+  .cnct-button111:hover
+  {
+opacity: .5;
+  }
+  .cnct-switch222{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 35px 0px 0px 0px;
+    width: 740px;
+    height: 38px;
+    justify-content: space-between;
+  }
+  .cnct-text222{
+    display: flex;
+    justify-content: left;
+    padding: 0px 480px 0px 0px;
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .cnct-icon222{
+    display: flex;
+    justify-content: left;
+    padding: 3px 0px 0px 0px;
+    width: 38px;
+    height: 38px;
+    color: #bbbbbb;
+  }
+  .cnct-button222
+  {
+    display: flex;
+    padding: 9px 20px 0px 0px;
+    justify-content: right;
+  }
+  .selected2{
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    width: 760px;
+    height: 50px;
+    margin:-85px 0px 0px 337px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgba(183, 183, 183, 0.2);
+} */
+.cnct-container2{
+  margin: 230px auto 0px 279px;
+  width: 960px;
+  height: 590px;
+  background-color: #ffffff;
+  font-size: 25px;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 4px 4px 4px #0000002e;
+}
+.textinput12{
+  display: flex;
+  padding: 40px 50px 0px 50px;
+  justify-content: space-between;
+}
+.stdntcnctmsg-input1 {
+  color: #000000;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 400;
+  width: 300px;
+  height: 50px;
+  transition: 0.3s;
+  border-color: #b7b7b7;
+  border-width: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+  background-color: transparent;
+}
+.stdntcnctmsg-input1:focus {
+  background-color: rgba(183, 183, 183, 0.2);
+    }
+    .stdntcnctmsg-input2 {
+      color: #000000;
+      font-size: 25px;
+      font-family: Outfit;
+      font-weight: 400;
+      width: 300px;
+      height: 50px;
+      transition: 0.3s;
+      border-color: #b7b7b7;
+      border-width: 1px;
+      border-radius: 10px;
+      cursor: pointer;
+      padding: 0px 10px 0px 10px;
+      background-color: transparent;
+    }
+    .stdntcnctmsg-input2:focus {
+      background-color: rgba(183, 183, 183, 0.2);
+        }
+        .textinput34{
+          display: flex;
+          justify-content: space-between;
+          padding: 70px 50px 0px 50px;
+        }
+        .stdntcnctmsg-input3 {
+          color: #000000;
+          font-size: 25px;
+          font-family: Outfit;
+          font-weight: 400;
+          width: 300px;
+          height: 50px;
+          transition: 0.3s;
+          border-color: #b7b7b7;
+          border-width: 1px;
+          border-radius: 10px;
+          padding: 0px 10px 0px 10px;
+          cursor: pointer;
+          background-color: transparent;
+        }
+        .stdntcnctmsg-input3:focus {
+          background-color: rgba(183, 183, 183, 0.2);
+            }
+            .stdntcnctmsg-input4 {
+              color: #000000;
+              font-size: 25px;
+              font-family: Outfit;
+              font-weight: 400;
+              width: 300px;
+              height: 50px;
+              transition: 0.3s;
+              border-color: #b7b7b7;
+              border-width: 1px;
+              border-radius: 10px;
+              padding: 0px 10px 0px 10px;
+              cursor: pointer;
+              background-color: transparent;
+            }
+            .stdntcnctmsg-input4:focus {
+              background-color: rgba(183, 183, 183, 0.2);
+                }
+
+                .stdntcnctmsg-input5 {
+                  display: flex;
+                  margin: 70px 0px 0px 50px ;
+                  color: #000000;
+                  font-size: 25px;
+                  font-family: Outfit;
+                  font-weight: 400;
+                  width: 850px;
+                  height: 200px;
+                  transition: 0.3s;
+                  border-color: #b7b7b7;
+                  border-width: 1px;
+                  border-radius: 10px;
+                  cursor: pointer;
+                  padding: 10px 10px 0px 10px;
+                  background-color: transparent;
+                }
+                .stdntcnctmsg-input5:focus {
+                  background-color: rgba(183, 183, 183, 0.2);
+                    }
+                    .submit-button1 {
+                      top: 840px;
+                      left: 659px;
+                      color: #ffffff;
+                      width: 300px;
+                      height: 50px;
+                      position: absolute;
+                      font-family: Outfit;
+                      font-size: 30px;
+                      font-style: normal;
+                      font-weight: 400;
+                      border: none;
+                      border-radius:7px;
+                      cursor: pointer;
+                      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+                      background-color: #226621;
+                    }
+                    .submit-button1:hover {
+                    opacity: .7;
+                  }
+
+ 

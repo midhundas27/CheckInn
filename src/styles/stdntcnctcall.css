@@ -1,0 +1,388 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    
+    top: 150px;
+    left: 350px;
+    margin: 25px auto 0 -35px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+  .stdntconnect-sidebarbox1 {
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 100%;
+    position: absolute;
+    background-color: #266221;
+  }
+  
+  .connect-navigation1 {
+    margin-top: 20px;
+  }
+  
+  .connect-sidebar1{
+    width: 192px;
+    height: 1024px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .active1-11{
+   top: 285px;
+    left: 71px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+.active1-11:hover{
+  opacity: .6;
+}
+  .icon1-11{
+    top: 285px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text1-11{
+    top: 50px;
+    left: -6px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+   }
+   .menu-text1-11:hover{
+    opacity: .6;
+  }
+  .active2-22{
+    top: 435px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active2-22:hover{
+    opacity: .6;
+  }
+  .icon2-22{
+    top: 435px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text2-22{
+    top: 50px;
+    left: -17px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text2-22:hover{
+    opacity: .6;
+  }
+  .active3-33{
+    top: 585px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active3-33:hover{
+    opacity: .6;
+  }
+  .icon3-33{
+    top: 585px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text3-33{
+    top: 50px;
+    left: -40px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text3-33:hover{
+    opacity: .6;
+  }
+  .active4-44{
+    top: 735px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active4-44:hover{
+    opacity: .6;
+  }
+  .icon4-44{
+    top: 735px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffa74f;
+
+  }
+  .menu-text4-44{
+    top: 50px;
+    left: 2px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text4-44:hover{
+    opacity: .6;
+  }
+  .stdntconnect-logopic1{
+    top: 85px;
+    left: 1222px;
+    width: 101px;
+    height: 90px;
+    position: absolute;
+  }
+
+.cnct-container1{
+  display: flex;
+  margin: 230px auto 0px 279px;
+  width: 1060px;
+  height: 690px;
+  background-color: #ffffff;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #0000002e;
+}
+
+.warden1{
+  bottom:680px;
+  font-size: 30px;
+  font-weight: 500;
+  left: 390px;
+  position: absolute;
+}
+.clerk1{
+  bottom:590px;
+  left: 390px;
+  font-size: 30px;
+  font-weight: 500;
+  position: absolute;
+}
+.security1{
+  font-size: 30px;
+  font-weight: 500;
+  bottom:500px;
+  left: 390px;
+  position: absolute;
+}
+.hstlsecr1{
+  font-size: 30px;
+  font-weight: 500;
+  bottom:410px;
+  left: 390px;
+  position: absolute;
+}
+.messsecr1{
+  font-size: 30px;
+  font-weight: 500;
+  bottom:320px;
+  left: 390px;
+  position: absolute;
+}
+.cabdr-11{
+  font-size: 30px;
+  font-weight: 500;
+  bottom:230px;
+  left: 390px;
+  position: absolute;
+}
+.cabdr-21{
+  font-size: 30px;
+  font-weight: 500;
+  bottom:140px;
+  left: 390px;
+  position: absolute;
+}
+
+.warden2{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:680px;
+  left:700px;
+  position: absolute;
+}
+.clerk2{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:590px;
+  left:700px;
+  position: absolute;
+}
+.security2{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:500px;
+  left:700px;
+  position: absolute;
+}
+.hstlsecr2{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:410px;
+  left:700px;
+  position: absolute;
+}
+.messsecr2{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:320px;
+  left:700px;
+  position: absolute;
+}
+.cabdr-12{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:230px;
+  left:700px;
+  position: absolute;
+}
+.cabdr-22{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:140px;
+  left:700px;
+  position: absolute;
+}
+
+.warden3{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:680px;
+  left: 1000px;
+  position: absolute;
+}
+.clerk3{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:590px;
+  left: 1000px;
+  position: absolute;
+}
+.security3{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:500px;
+  left: 1000px;
+  position: absolute;
+}
+.hstlsecr3{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:410px;
+  left: 1000px;
+  position: absolute;
+}
+.messsecr3{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:320px;
+  left: 1000px;
+  position: absolute;
+}
+.cabdr-13{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:230px;
+  left: 1000px;
+  position: absolute;
+}
+.cabdr-23{
+  background-color: rgba(183, 183, 183, 0.2);
+  width: 230px;
+  color: #ffa74f;
+  text-align: center;
+  border-radius: 5px;
+  bottom:140px;
+  left: 1000px;
+  position: absolute;
+}
+
+
+
+
+ 
+ 

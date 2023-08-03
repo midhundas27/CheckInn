@@ -1,0 +1,285 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    
+    top: 150px;
+    left: 350px;
+    margin: 25px auto 0 -35px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+  .stdntconnect-sidebarbox {
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 100%;
+    position: absolute;
+    background-color: #266221;
+  }
+  
+  .connect-navigation {
+    margin-top: 20px;
+  }
+  
+  .connect-sidebar{
+    width: 192px;
+    height: 1024px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .active1-1{
+   top: 285px;
+    left: 71px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+.active1-1:hover{
+  opacity: .6;
+}
+  .icon1-1{
+    top: 285px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text1-1{
+    top: 50px;
+    left: -6px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+   }
+   .menu-text1-1:hover{
+    opacity: .6;
+  }
+  .active2-2{
+    top: 435px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active2-2:hover{
+    opacity: .6;
+  }
+  .icon2-2{
+    top: 435px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text2-2{
+    top: 50px;
+    left: -17px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text22:hover{
+    opacity: .6;
+  }
+  .active3-3{
+    top: 585px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active3-3:hover{
+    opacity: .6;
+  }
+  .icon3-3{
+    top: 585px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .menu-text3-3{
+    top: 50px;
+    left: -40px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text33:hover{
+    opacity: .6;
+  }
+  .active4-4{
+    top: 735px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .active4-4:hover{
+    opacity: .6;
+  }
+  .icon4-4{
+    top: 735px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffa74f;
+
+  }
+  .menu-text4-4{
+    top: 50px;
+    left: 2px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .menu-text44:hover{
+    opacity: .6;
+  }
+  .map-container {
+    width: 532px;
+    display: flex;
+    align-items: center;
+    margin: 130px 0 0 279px;
+    cursor: pointer;
+  }
+  
+  .map-image {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto 0 0px;
+    width: 532px;
+    height: 350px;
+  }
+  .spotpath{
+    width: 300px;
+    height: 150px;
+    margin: -24px auto 0 -250px;
+  }
+  .stdntconnect-logopic{
+    top: 85px;
+    left: 1222px;
+    width: 101px;
+    height: 90px;
+    position: absolute;
+  }
+
+   .stdntconnect-switch{
+    display: block;
+    background-color: #ffffff;
+    margin: 225px auto 0 279px;
+    border-radius: 10px;
+    box-shadow: 4px 0 4px #0000002e;
+    width: 900px;
+    height: 200px;
+  }
+  .cnct-switch1{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 45px 0px 0px 0px;
+    width: 740px;
+    height: 38px;
+    justify-content: space-between;
+  }
+  .cnct-text1{
+    display: flex;
+    justify-content: left;
+    padding: 0px 545px 0px 0px;
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 500;
+
+  }
+  .cnct-icon1{
+    display: flex;
+    width: 38px;
+    height: 38px;
+    color: #bbbbbb;
+  }
+  .cnct-button1
+  {
+     display: flex;
+     padding: 7px 20px 0px 0px;
+     justify-content: right;
+  }
+  .cnct-button1:hover
+  {
+opacity: .5;
+  }
+  .cnct-switch2{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 35px 0px 0px 0px;
+    width: 740px;
+    height: 38px;
+    justify-content: space-between;
+  }
+  .cnct-text2{
+    display: flex;
+    justify-content: left;
+    padding: 0px 480px 0px 0px;
+    font-family: Outfit;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .cnct-icon2{
+    display: flex;
+    justify-content: left;
+    padding: 3px 0px 0px 0px;
+    width: 38px;
+    height: 38px;
+    color: #bbbbbb;
+  }
+  .cnct-button2
+  {
+    display: flex;
+    padding: 9px 20px 0px 0px;
+    justify-content: right;
+  }
+  .cnct-button2:hover
+  {
+opacity: .5;
+  }
+  h3{
+    text-align: left;
+    font-weight: 500;
+    margin: -100px 0 0 0;
+    padding: 0 0 0 825px;
+  }
+ 

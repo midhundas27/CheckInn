@@ -1,0 +1,253 @@
+body {
+    background-color: #fff6ee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    
+    top: 150px;
+    left: 325px;
+    margin: 25px auto 0 -35px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+    .logopic-stdntreg{
+        top: 85px;
+        left: 1222px;
+        width: 101px;
+        height: 90px;
+        position: absolute;
+      }
+    .stdntreg-sidebarbox{
+        top: 0px;
+        left: 0px;
+        width: 192px;
+        height: 3644px;
+        position: absolute;
+        background-color: #266221;
+    }
+         
+  .stdntreg-navigation{
+    margin-top: 20px;
+  }
+        .stdntreg-sidebarmenu{
+            width: 192px;
+            height: 1024px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+          .stdntreg-active11{
+           top: 413px;
+            left: 71px;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            display: flex;
+          }
+        .stdntreg-active11:hover{
+          opacity: .6;
+        }
+          .stdntreg-icon11{
+            top: 313px;
+            left: 71px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            fill: #ffa74f;
+          }
+          .stdntregmenu-text11{
+            top: 50px;
+            left: -37px;
+             color: #ffa74f;
+             font-size: 25px;
+             font-family: Outfit;
+             font-weight: 200;
+             position: absolute;
+             display: flex;
+             white-space: nowrap;
+           }
+           .stdntregmenu-text11:hover{
+            opacity: .6;
+          }
+
+          .stdntreg-form-container {
+            width: 1060px;
+            display: flex;
+            margin: 230px auto 100px 279px;
+            background-color: #ffffff;
+            font-size: 25px;
+            border-radius: 10px;
+            align-items: center;
+            box-shadow: 4px 4px 4px #0000002e;
+          }
+          
+          .stdntreg-form {
+            display: grid;
+            width: 900px;
+            margin: 600px 0px 100px 70px;
+            gap: 15px;
+          }
+          
+          .stdntreg-form label {
+            width: 900px;
+            margin: 0px 5px;
+            font-weight: 600;
+          }
+          
+          .stdntreg-form input{
+            width: 900px;
+            display: flex;
+            padding: 7px;
+            font-weight: 400;
+            font-size: 25px;
+            border-radius: 5px;
+            border: 1px solid #b7b7b7;
+            cursor: pointer;
+
+          }
+          .stdntreg-form input:focus {
+            background-color: #fff6ee;
+              }
+          .stdntreg-form select {
+            width: 300px;
+            padding: 7px;
+            font-size: 25px;
+            border-radius: 5px;
+            font-weight: 400;
+            border: 1px solid #b7b7b7;
+            cursor: pointer;
+          }
+          .stdntreg-form select:hover {
+            background-color: #fff6ee;
+          }
+          
+          .stdntreg-form button {
+            padding: 0px 20px;
+            margin: 50px 0px 0px 0px;
+            border: none;
+            color: #ffffff;
+            width: 917px;
+            height: 50px;
+            font-size: 30px;
+            font-weight: 400;
+            font-family: Outfit;
+            border-radius: 7px;
+            cursor: pointer;
+            box-shadow: 4px 4px 4px 0px #00000040;
+            background-color: #226622;
+          }
+          .stdntreg-form button:hover{
+            opacity: .7;
+          }
+          h2{
+            top: 260px;
+            margin: 25px auto 0 -35px;
+            position: absolute;
+            font-family: Outfit;
+            font-weight: 600;
+            font-size: 30px;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          p{
+            top: 360px;
+            left: 375px;
+            margin: 25px auto 0 -35px;
+            position: absolute;
+            font-size: 25px;
+            font-family: Outfit;
+            font-weight: 600;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          ol{
+            top: 400px;
+            left: 375px;
+            width: 900px;
+            margin: 50px auto 0 -35px;
+            position: absolute;
+            font-size: 25px;
+            font-family: Outfit;
+            font-weight: 500;
+            font-stretch: normal;
+            text-decoration: none;
+          }
+          .scstYes{
+            margin: 6px 0px -23px -200px;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            cursor: pointer;
+
+          }
+        
+          .scstNo{
+            margin: 6px 0px -23px -200px;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            cursor: pointer;
+          }
+        
+          
+          .bplYes{
+            margin: 6px 0px -23px -200px;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            cursor: pointer;
+          }
+        
+          
+          .bplNo{
+            margin: 6px 0px -23px -200px;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            cursor: pointer;
+          }
+         
+          
+          .handicapYes{
+            margin: 6px 0px -23px -200px;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            cursor: pointer;
+          }
+       
+          
+          .handicapNo{
+            margin: 6px 0px -23px -200px;
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            cursor: pointer;
+          }
+    
+          .declarationCheckbox{
+              left: -425px;
+              bottom: -43px;
+              margin: 0px 10px 0px 0px;
+              width: 20px;
+              height: 20px;
+              position: relative;
+              cursor: pointer;
+          
+          }
+          .declarationCheck{
+            margin: 0px 0px 0px 50px;
+            top: 15px;
+            position: relative;
+          }
+        span{
+          font-weight: 600;
+        }
+ 
