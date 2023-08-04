@@ -178,90 +178,6 @@ body {
     position: absolute;
   }
 
-   /* .stdntconnect-switch2{
-    display: block;
-    background-color: #ffffff;
-    margin: 225px auto 0 279px;
-    border-radius: 10px;
-    box-shadow: 4px 0px 4px #0000002e;
-    width: 900px;
-    height: 200px;
-  }
-  .cnct-switch111{
-    display: flex;
-    justify-content: center;
-    margin: 0px auto;
-    padding: 45px 0px 0px 0px;
-    width: 740px;
-    height: 38px;
-    justify-content: space-between;
-  }
-  .cnct-text111{
-    display: flex;
-    justify-content: left;
-    padding: 0px 545px 0px 0px;
-    font-family: Outfit;
-    font-size: 30px;
-    font-weight: 500;
-
-  }
-  .cnct-icon111{
-    display: flex;
-    width: 38px;
-    height: 38px;
-    color: #bbbbbb;
-  }
-  .cnct-button111
-  {
-     display: flex;
-     padding: 7px 20px 0px 0px;
-     justify-content: right;
-  }
-  .cnct-button111:hover
-  {
-opacity: .5;
-  }
-  .cnct-switch222{
-    display: flex;
-    justify-content: center;
-    margin: 0px auto;
-    padding: 35px 0px 0px 0px;
-    width: 740px;
-    height: 38px;
-    justify-content: space-between;
-  }
-  .cnct-text222{
-    display: flex;
-    justify-content: left;
-    padding: 0px 480px 0px 0px;
-    font-family: Outfit;
-    font-size: 30px;
-    font-weight: 500;
-  }
-  .cnct-icon222{
-    display: flex;
-    justify-content: left;
-    padding: 3px 0px 0px 0px;
-    width: 38px;
-    height: 38px;
-    color: #bbbbbb;
-  }
-  .cnct-button222
-  {
-    display: flex;
-    padding: 9px 20px 0px 0px;
-    justify-content: right;
-  }
-  .selected2{
-    display: flex;
-    border-radius: 10px;
-    justify-content: center;
-    width: 760px;
-    height: 50px;
-    margin:-85px 0px 0px 337px;
-    padding: 0px 0px 0px 0px;
-    background-color: rgba(183, 183, 183, 0.2);
-} */
 .cnct-container2{
   margin: 230px auto 0px 279px;
   width: 960px;
@@ -284,10 +200,9 @@ opacity: .5;
   font-weight: 400;
   width: 300px;
   height: 50px;
-  transition: 0.3s;
-  border-color: #b7b7b7;
-  border-width: 1px;
-  border-radius: 10px;
+  
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
   cursor: pointer;
   padding: 0px 10px 0px 10px;
   background-color: transparent;
@@ -302,10 +217,9 @@ opacity: .5;
       font-weight: 400;
       width: 300px;
       height: 50px;
-      transition: 0.3s;
-      border-color: #b7b7b7;
-      border-width: 1px;
-      border-radius: 10px;
+      
+      border: 1px solid #b7b7b7;
+      border-radius: 5px;
       cursor: pointer;
       padding: 0px 10px 0px 10px;
       background-color: transparent;
@@ -325,10 +239,8 @@ opacity: .5;
           font-weight: 400;
           width: 300px;
           height: 50px;
-          transition: 0.3s;
-          border-color: #b7b7b7;
-          border-width: 1px;
-          border-radius: 10px;
+          border: 1px solid #b7b7b7;
+          border-radius: 5px;
           padding: 0px 10px 0px 10px;
           cursor: pointer;
           background-color: transparent;
@@ -343,10 +255,8 @@ opacity: .5;
               font-weight: 400;
               width: 300px;
               height: 50px;
-              transition: 0.3s;
-              border-color: #b7b7b7;
-              border-width: 1px;
-              border-radius: 10px;
+              border: 1px solid #b7b7b7;
+              border-radius: 5px;
               padding: 0px 10px 0px 10px;
               cursor: pointer;
               background-color: transparent;
@@ -364,10 +274,8 @@ opacity: .5;
                   font-weight: 400;
                   width: 850px;
                   height: 200px;
-                  transition: 0.3s;
-                  border-color: #b7b7b7;
-                  border-width: 1px;
-                  border-radius: 10px;
+                  border: 1px solid #b7b7b7;
+                  border-radius: 5px;
                   cursor: pointer;
                   padding: 10px 10px 0px 10px;
                   background-color: transparent;

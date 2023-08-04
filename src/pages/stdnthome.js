@@ -53,7 +53,7 @@ import {NavLink} from 'react-router-dom';
                 </NavLink>
                 
                 
-                <NavLink to="/checkinnstudentqueriessubmission" className={"text12"} activeClassName="active">
+                <NavLink to="/stdntqueries" className={"text12"} activeClassName="active">
       <img src="./images/studenthomequeriessubmissionbuttondesign.png" alt="queriessubmission-button"className='checkinnstudenthome-studenthomequeriessubmissionbuttondesign1' />
               <span>Queries Submission</span>
                 </NavLink>

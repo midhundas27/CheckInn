@@ -15,6 +15,8 @@ import Stdntnotify from '../pages/stdntnotify';
 import Stdntbillpay from '../pages/stdntbillpay';
 import Stdntpayhis from '../pages/stdntpayhis';
 import Stdntreg from '../pages/stdntreg';
+import Stdntqueries from '../pages/stdntqueries';
+import Stdntappaprov from '../pages/stdntappaprov';
 
 const Routers = () => {
   return (
@@ -36,6 +38,8 @@ const Routers = () => {
         <Route path='/stdntbillpay' element={<Stdntbillpay/>} />
         <Route path='/stdntpayhis' element={<Stdntpayhis/>} />
         <Route path='/stdntreg' element={<Stdntreg/>} />
+        <Route path='/stdntqueries' element={<Stdntqueries/>} />
+        <Route path='/stdntappaprov' element={<Stdntappaprov/>} />
       </Routes>
     </div>
   )

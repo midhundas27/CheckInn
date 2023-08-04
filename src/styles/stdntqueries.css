@@ -1,0 +1,288 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    
+    top: 140px;
+    left: 350px;
+    margin: 25px auto 0 -35px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+  .stdntqueries-sidebarbox2 {
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 100%;
+    position: absolute;
+    background-color: #266221;
+  }
+  
+  .queries-navigation2 {
+    margin-top: 20px;
+  }
+  
+  .queries-sidebar2{
+    width: 192px;
+    height: 1024px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .queriesactive1-111{
+   top: 300px;
+    left: 71px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+.queriesactive1-111:hover{
+  opacity: .6;
+}
+  .queriesicon1-111{
+    top: 300px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffa74f;
+  }
+  .queriesmenu-text1-111{
+    top: 50px;
+    left: -14px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+   }
+   .queriesmenu-text1-111:hover{
+    opacity: .6;
+  }
+  .queriesactive2-222{
+    top: 500px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .queriesactive2-222:hover{
+    opacity: .6;
+  }
+  .queriesicon2-222{
+    top: 500px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .queriesmenu-text2-222{
+    top: 50px;
+    left: -26px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .queriesmenu-text2-222:hover{
+    opacity: .6;
+  }
+  .stdntqueries-logopic2{
+    top: 85px;
+    left: 1222px;
+    width: 101px;
+    height: 90px;
+    position: absolute;
+  }
+
+.queries-container2{
+  margin: 230px auto 0px 279px;
+  width: 960px;
+  height: 690px;
+  background-color: #ffffff;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #0000002e;
+}
+.queriestext-input12{
+  display: flex;
+  padding: 40px 50px 0px 50px;
+  justify-content: space-between;
+}
+.stdntqueries-input1 {
+  color: #000000;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 400;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+  margin: 30px 215px 0px 50px;
+  background-color: transparent;
+}
+.stdntqueries-input1:focus {
+  background-color: rgba(183, 183, 183, 0.2);
+    }
+    .stdntqueries-input2 {
+      color: #000000;
+      font-size: 25px;
+      font-family: Outfit;
+      font-weight: 400;
+      width: 300px;
+      height: 50px;
+
+      border: 1px solid #b7b7b7;
+     border-radius: 5px;
+      cursor: pointer;
+      padding: 0px 10px 0px 10px;
+      background-color: transparent;
+      margin: 0px 0px 0px 0px;
+    }
+    .stdntqueries-input2:focus {
+      background-color: rgba(183, 183, 183, 0.2);
+        }
+        .queriestext-input34{
+          display: flex;
+          justify-content: space-between;
+          padding: 70px 50px 0px 50px;
+        }
+        .stdntqueries-input3 {
+          color: #000000;
+          font-size: 25px;
+          font-family: Outfit;
+          font-weight: 400;
+          width: 300px;
+          height: 50px;
+    
+          border: 1px solid #b7b7b7;
+         border-radius: 5px;
+          padding: 0px 10px 0px 10px;
+          cursor: pointer;
+          background-color: transparent;
+          margin: 30px 215px 20px 50px;
+        }
+        .stdntqueries-input3:focus {
+          background-color: rgba(183, 183, 183, 0.2);
+            }
+            .stdntqueries-input4 {
+              color: #000000;
+              font-size: 25px;
+              font-family: Outfit;
+              font-weight: 400;
+              width: 300px;
+              height: 50px;
+        
+              border: 1px solid #b7b7b7;
+             border-radius: 5px;
+              padding: 0px 10px 0px 10px;
+              cursor: pointer;
+              background-color: transparent;
+              margin: 0px 0px 20px 0px;
+            }
+            .stdntqueries-input4:focus {
+              background-color: rgba(183, 183, 183, 0.2);
+                }
+
+                .stdntqueries-input5 {
+                  margin: 30px 0px 0px 50px ;
+                  color: #000000;
+                  font-size: 25px;
+                  font-family: Outfit;
+                  font-weight: 400;
+                  width: 837px;
+                  height: 130px;
+                  border: 1px solid #b7b7b7;
+                 border-radius: 5px;
+                  cursor: pointer;
+                  padding: 10px 10px 0px 10px;
+                  background-color: transparent;
+                }
+                .stdntqueries-input5:focus {
+                  background-color: rgba(183, 183, 183, 0.2);
+                    }
+                    .submit-button2 {
+                      top: 860px;
+                      left: 330px;
+                      color: #ffffff;
+                      width: 200px;
+                      height: 50px;
+                      position: absolute;
+                      font-family: Outfit;
+                      font-size: 25px;
+                      font-style: normal;
+                      font-weight: 400;
+                      border: none;
+                      border-radius:7px;
+                      cursor: pointer;
+                      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+                      background-color: #266221;
+                    }
+                    .submit-button2:hover {
+                    opacity: .7;
+                  }
+
+                   #complaintfile{
+                    width: 843px;
+                    padding: 7px;
+                    font-weight: 400;
+                    font-size: 25px;
+                    border-radius: 5px;
+                    border: 1px solid #b7b7b7;
+                    cursor: pointer;
+                    margin: 20px 215px 0px 50px;
+        
+                  }
+                  #complaintfile:focus {
+                    background-color: #fff6ee;
+                      }
+                  #complainttype {
+                    width: 322px;
+                    height: 50px;
+                    padding: 7px;
+                    font-size: 25px;
+                    border-radius: 5px;
+                    font-weight: 400;
+                    border: 1px solid #b7b7b7;
+                    cursor: pointer;
+                    margin: 20px 215px 50px 50px;
+                    
+                  }
+                  #complainttype:hover {
+                    background-color: #fff6ee;
+                  }  
+                  .complainttype{
+                    font-weight: 500;
+                    margin: 0px 0px 0px 50px;
+                  }    
+                   label {
+                    width: 900px;
+                    margin: 0px 5px;
+                    font-weight: 500;
+                  } 
+                  .complaintfile1{
+                    font-weight: 500;
+                    margin: 0px 0px 0px -537px;
+                    position: relative;
+                    top: 55px
+                  }  
+
+ 

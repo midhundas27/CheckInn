@@ -1,0 +1,288 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    
+    top: 140px;
+    left: 350px;
+    margin: 25px auto 0 -35px;
+    position: absolute;
+    font-size: 40px;
+    font-style: Bold;
+    font-family: Outfit;
+    font-weight: 700;
+    font-stretch: normal;
+    text-decoration: none;
+}
+  .stdntappaprov-sidebarbox2 {
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 100%;
+    position: absolute;
+    background-color: #266221;
+  }
+  
+  .appaprov-navigation2 {
+    margin-top: 20px;
+  }
+  
+  .appaprov-sidebar2{
+    width: 192px;
+    height: 1024px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .appaprovactive1-111{
+   top: 300px;
+    left: 71px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+.appaprovactive1-111:hover{
+  opacity: .6;
+}
+  .appaprovicon1-111{
+    top: 300px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .appaprovmenu-text1-111{
+    top: 50px;
+    left: -14px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+   }
+   .appaprovmenu-text1-111:hover{
+    opacity: .6;
+  }
+  .appaprovactive2-222{
+    top: 500px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .appaprovactive2-222:hover{
+    opacity: .6;
+  }
+  .appaprovicon2-222{
+    top: 500px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffa74f;
+  }
+  .appaprovmenu-text2-222{
+    top: 50px;
+    left: -26px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .appaprovmenu-text2-222:hover{
+    opacity: .6;
+  }
+  .stdntappaprov-logopic2{
+    top: 85px;
+    left: 1222px;
+    width: 101px;
+    height: 90px;
+    position: absolute;
+  }
+
+.appaprov-container2{
+  margin: 230px auto 0px 279px;
+  width: 960px;
+  height: 690px;
+  background-color: #ffffff;
+  font-size: 25px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #0000002e;
+}
+.appaprovtext-input12{
+  display: flex;
+  padding: 40px 50px 0px 50px;
+  justify-content: space-between;
+}
+.stdntappaprov-input1 {
+  color: #000000;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 400;
+  width: 300px;
+  height: 50px;
+  border: 1px solid #b7b7b7;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+  margin: 30px 215px 0px 50px;
+  background-color: transparent;
+}
+.stdntappaprov-input1:focus {
+  background-color: rgba(183, 183, 183, 0.2);
+    }
+    .stdntappaprov-input2 {
+      color: #000000;
+      font-size: 25px;
+      font-family: Outfit;
+      font-weight: 400;
+      width: 300px;
+      height: 50px;
+
+      border: 1px solid #b7b7b7;
+     border-radius: 5px;
+      cursor: pointer;
+      padding: 0px 10px 0px 10px;
+      background-color: transparent;
+      margin: 0px 0px 0px 0px;
+    }
+    .stdntappaprov-input2:focus {
+      background-color: rgba(183, 183, 183, 0.2);
+        }
+        .appaprovtext-input34{
+          display: flex;
+          justify-content: space-between;
+          padding: 70px 50px 0px 50px;
+        }
+        .stdntappaprov-input3 {
+          color: #000000;
+          font-size: 25px;
+          font-family: Outfit;
+          font-weight: 400;
+          width: 300px;
+          height: 50px;
+    
+          border: 1px solid #b7b7b7;
+         border-radius: 5px;
+          padding: 0px 10px 0px 10px;
+          cursor: pointer;
+          background-color: transparent;
+          margin: 30px 215px 20px 50px;
+        }
+        .stdntappaprov-input3:focus {
+          background-color: rgba(183, 183, 183, 0.2);
+            }
+            .stdntappaprov-input4 {
+              color: #000000;
+              font-size: 25px;
+              font-family: Outfit;
+              font-weight: 400;
+              width: 300px;
+              height: 50px;
+        
+              border: 1px solid #b7b7b7;
+             border-radius: 5px;
+              padding: 0px 10px 0px 10px;
+              cursor: pointer;
+              background-color: transparent;
+              margin: 0px 0px 20px 0px;
+            }
+            .stdntappaprov-input4:focus {
+              background-color: rgba(183, 183, 183, 0.2);
+                }
+
+                .stdntappaprov-input5 {
+                  margin: 30px 0px 0px 50px ;
+                  color: #000000;
+                  font-size: 25px;
+                  font-family: Outfit;
+                  font-weight: 400;
+                  width: 837px;
+                  height: 130px;
+                  border: 1px solid #b7b7b7;
+                 border-radius: 5px;
+                  cursor: pointer;
+                  padding: 10px 10px 0px 10px;
+                  background-color: transparent;
+                }
+                .stdntappaprov-input5:focus {
+                  background-color: rgba(183, 183, 183, 0.2);
+                    }
+                    .submit-button2 {
+                      top: 860px;
+                      left: 330px;
+                      color: #ffffff;
+                      width: 200px;
+                      height: 50px;
+                      position: absolute;
+                      font-family: Outfit;
+                      font-size: 25px;
+                      font-style: normal;
+                      font-weight: 400;
+                      border: none;
+                      border-radius:7px;
+                      cursor: pointer;
+                      box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+                      background-color: #266221;
+                    }
+                    .submit-button2:hover {
+                    opacity: .7;
+                  }
+
+                   #applicationfile{
+                    width: 843px;
+                    padding: 7px;
+                    font-weight: 400;
+                    font-size: 25px;
+                    border-radius: 5px;
+                    border: 1px solid #b7b7b7;
+                    cursor: pointer;
+                    margin: 20px 215px 0px 50px;
+        
+                  }
+                  #applicationfile:focus {
+                    background-color: #fff6ee;
+                      }
+                  #applicationtype {
+                    width: 322px;
+                    height: 50px;
+                    padding: 7px;
+                    font-size: 25px;
+                    border-radius: 5px;
+                    font-weight: 400;
+                    border: 1px solid #b7b7b7;
+                    cursor: pointer;
+                    margin: 20px 215px 50px 50px;
+                    
+                  }
+                  #applicationtype:hover {
+                    background-color: #fff6ee;
+                  }  
+                  .applicationtype{
+                    font-weight: 500;
+                    margin: 0px 0px 0px 50px;
+                  }    
+                   label {
+                    width: 900px;
+                    margin: 0px 5px;
+                    font-weight: 500;
+                  } 
+                  .applicationfile1{
+                    font-weight: 500;
+                    margin: 0px 0px 0px -537px;
+                    position: relative;
+                    top: 55px
+                  }  
+
+ 
