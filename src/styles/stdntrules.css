@@ -1,0 +1,340 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .stdntrules-sidebarbox {
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 100%;
+    position: fixed;
+    background-color: #266221;
+  }
+  
+  .rules-navigation {
+    margin-top: 20px;
+  }
+  
+  .rules-sidebar{
+    width: 192px;
+    height: 1024px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .rules-1{
+   top: 285px;
+    left: 71px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+.rules-1:hover{
+  opacity: .6;
+}
+  .rulesicon-1{
+    top: 285px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .rulestext-1{
+    top: 50px;
+    left: -6px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+   }
+   .rulestext-1:hover{
+    opacity: .6;
+  }
+  .rules-2{
+    top: 435px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .rules-2:hover{
+    opacity: .6;
+  }
+  .rulesicon-2{
+    top: 435px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffa74f;
+  }
+  .rulestext-2{
+    top: 50px;
+    left: -17px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .rulestext-2:hover{
+    opacity: .6;
+  }
+  .rules-3{
+    top: 585px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .rules-3:hover{
+    opacity: .6;
+  }
+  .rulesicon-3{
+    top: 585px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff 
+   }
+  .rulestext-3{
+    top: 50px;
+    left: -40px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .rulestext-3:hover{
+    opacity: .6;
+  }
+  .rules-4{
+    top: 735px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .rules-4:hover{
+    opacity: .6;
+  }
+  .rulesicon-4{
+    top: 735px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+
+  }
+  .rulestext-4{
+    top: 50px;
+    left: 2px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .rulestext-4:hover{
+    opacity: .6;
+  }
+  .stdntrules-logopic{
+    top: 85px;
+    left: 1222px;
+    width: 101px;
+    height: 90px;
+    position:fixed;
+  }
+  .stdntrules-headerbox {
+    top: 201px;
+    left: 192px;
+    height: 130px;
+    width: 1231px;
+    position: fixed;
+    background-color: #266221;
+    z-index: 1;
+  }
+  .rulestext-5{
+    top: 50px;
+    left: 150px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .rulestext-5:hover{
+    opacity: .6;
+  }
+  .rulestext-6{
+    top: 50px;
+    left: 500px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .rulestext-6:hover{
+    opacity: .6;
+  }
+  .rulestext-7{
+    top: 50px;
+    left: 900px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .rulestext-7:hover{
+    opacity: .6;
+  }
+  .stdntrules-form {
+    display: grid;
+    width: 900px;
+    margin: 600px 0px 100px 70px;
+    gap: 15px;
+  }
+  
+  .rulespic{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 115px;
+    left: 908px;
+  }
+.stdntrules-contents{
+  text-align:left;
+  height: 1080px;
+  max-height: 1800px; /* Set the maximum height for scrolling */
+  width: 1440px; /* Set the width for scrolling */
+  overflow-y: auto;
+  max-height: calc(100vh - 440px); /* Adjust this value as needed */
+  overflow-y:auto;
+  overflow-x: hidden;
+  top: 420px;
+  position:relative;
+}
+.stdntrules-contents p{
+  top: 400px;
+  left: 260px;
+  margin: 25px 50px 0px 14px;
+  position: absolute;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 600;
+  font-stretch: normal;
+  text-decoration: none;
+  
+}
+ .stdntrules-group h1{
+  top: 330px;
+  left: 650px;
+  position: fixed; 
+  font-size: 40px;
+  font-family: Outfit;
+  font-weight: 700;
+  font-stretch: normal;
+  text-decoration: none;
+ }
+ .allocation1{
+    top: 0px;
+    left: 389px;
+    width: 900px;
+    margin: 50px auto 0 -35px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Outfit;
+    font-weight: 600;
+
+  }
+ .allocation{
+    top: 60px;
+    left: 375px;
+    width: 900px;
+    margin: 50px auto 0 -35px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Outfit;
+    font-weight: 500;
+
+  }
+  .catering1{
+    top: 900px;
+    left: 389px;
+    width: 900px;
+    margin: 50px auto 0 -35px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Outfit;
+    font-weight: 600;
+
+  }
+  .catering{
+    top: 960px;
+    left: 375px;
+    width: 900px;
+    margin: 50px auto 0 -35px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Outfit;
+    font-weight: 500;
+
+  }
+  .discipline1{
+    top: 1740px;
+    left: 389px;
+    width: 900px;
+    margin: 50px auto 0px -35px;
+    padding: 0px 0px 50px 0px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Outfit;
+    font-weight: 600;
+
+  }
+  .discipline{
+    top: 1800px;
+    left: 415px;
+    width: 900px;
+    margin: 50px auto 0px -35px;
+    padding: 0px 0px 50px 0px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Outfit;
+    font-weight: 500;
+
+  }
+  .stdntrules-contents li {
+    margin-bottom: 15px;
+
+  }
+
+
+ 

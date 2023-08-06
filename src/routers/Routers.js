@@ -3,7 +3,7 @@ import {Routes, Route, Navigate} from 'react-router-dom';
 
 import Checkinnlaunch from '../pages/launch';
 import Checkinnhome from '../pages/home';
-import Checkinnsignin from '../pages/signin';
+import Signin from '../pages/signin';
 import Checkinnstudenthome from '../pages/stdnthome';
 import Checkinnstudentmesscut from '../pages/stdntmesscut';
 import Checkinnstudentmessbill from '../pages/stdntmessbill';
@@ -17,6 +17,14 @@ import Stdntpayhis from '../pages/stdntpayhis';
 import Stdntreg from '../pages/stdntreg';
 import Stdntqueries from '../pages/stdntqueries';
 import Stdntappaprov from '../pages/stdntappaprov';
+import Stdntsettings from '../pages/stdntsettings';
+import Stdntnotifysettings from '../pages/stdntnotifysettings';
+import Stdntabout from '../pages/stdntabout';
+import Stdntsettingsmore from '../pages/stdntsettingsmore';
+import Stdntrules from '../pages/stdntrules';
+import Stdntsgstmenu from '../pages/stdntsgstmenu';
+
+
 
 const Routers = () => {
   return (
@@ -26,7 +34,7 @@ const Routers = () => {
         <Route path='/checkinnlaunch' element={<Checkinnlaunch/>} />
         <Route path='/checkinnhome' element={<Checkinnhome/>} />
 
-        <Route path='/checkinnsignin' element={<Checkinnsignin/>} />
+        <Route path='/signin' element={<Signin/>} />
         <Route path='/checkinnstudenthome' element={<Checkinnstudenthome/>} />
         <Route path='/checkinnstudentmesscut' element={<Checkinnstudentmesscut/>} />
         <Route path='/checkinnstudentmessbill' element={<Checkinnstudentmessbill/>} />
@@ -40,6 +48,12 @@ const Routers = () => {
         <Route path='/stdntreg' element={<Stdntreg/>} />
         <Route path='/stdntqueries' element={<Stdntqueries/>} />
         <Route path='/stdntappaprov' element={<Stdntappaprov/>} />
+        <Route path='/stdntsettings' element={<Stdntsettings/>} />
+        <Route path='/stdntnotifysettings' element={<Stdntnotifysettings/>} />
+        <Route path='/stdntabout' element={<Stdntabout/>} />
+        <Route path='/stdntsettingsmore' element={<Stdntsettingsmore/>} />
+        <Route path='/stdntrules' element={<Stdntrules/>} />
+        <Route path='/stdntsgstmenu' element={<Stdntsgstmenu/>} />
       </Routes>
     </div>
   )

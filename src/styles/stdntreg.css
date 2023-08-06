@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
   }
-  h1 {
+  .stdntreg-container h1 {
     
     top: 150px;
     left: 325px;
     margin: 25px auto 0 -35px;
-    position: absolute;
+    position: fixed;
     font-size: 40px;
     font-style: Bold;
     font-family: Outfit;
@@ -28,8 +28,8 @@ body {
         top: 0px;
         left: 0px;
         width: 192px;
-        height: 3644px;
-        position: absolute;
+        height: 100%;
+        position: fixed;
         background-color: #266221;
     }
          
@@ -80,12 +80,13 @@ body {
           .stdntreg-form-container {
             width: 1060px;
             display: flex;
-            margin: 230px auto 100px 279px;
+            margin: 0px auto 100px 279px;
             background-color: #ffffff;
             font-size: 25px;
             border-radius: 10px;
             align-items: center;
             box-shadow: 4px 4px 4px #0000002e;
+            
           }
           
           .stdntreg-form {
@@ -146,9 +147,9 @@ body {
           .stdntreg-form button:hover{
             opacity: .7;
           }
-          h2{
-            top: 260px;
-            margin: 25px auto 0 -35px;
+          .stdntreg-form-container h2{
+            top: 40px;
+            margin: 25px auto 0 375px;
             position: absolute;
             font-family: Outfit;
             font-weight: 600;
@@ -156,9 +157,9 @@ body {
             font-stretch: normal;
             text-decoration: none;
           }
-          p{
-            top: 360px;
-            left: 375px;
+          .stdntreg-form-container p{
+            top: 120px;
+            left: 384px;
             margin: 25px auto 0 -35px;
             position: absolute;
             font-size: 25px;
@@ -167,8 +168,8 @@ body {
             font-stretch: normal;
             text-decoration: none;
           }
-          ol{
-            top: 400px;
+          .stdntreg-form-container ol{
+            top: 160px;
             left: 375px;
             width: 900px;
             margin: 50px auto 0 -35px;
@@ -249,5 +250,15 @@ body {
           }
         span{
           font-weight: 600;
+        }
+        .stdntreg-form-contents{
+          text-align:left;
+          height: 1080px;
+          width: 1440px; /* Set the width for scrolling */
+          max-height: calc(100vh - 270px); /* Adjust this value as needed */
+          overflow-y:auto;
+          overflow-x: hidden;
+          top: 250px;
+          position:relative;
         }
  

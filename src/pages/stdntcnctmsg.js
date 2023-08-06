@@ -62,25 +62,25 @@ import { NavLink} from 'react-router-dom';
         <li>
           <NavLink to="/checkinnstudenthome"className={"active1-111"} exact activeClassName="active">
             <FaHome className="icon1-111" />
-            <span className="menu-text1-111">home</span>
+            <span className="menu-text1-111">Home</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/stdntsettings" className={"active2-222"} activeClassName="active">
             <FaCog className="icon2-222" />
-            <span className="menu-text2-222">settings</span>
+            <span className="menu-text2-222">Settings</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/stdntnotify" className={"active3-333"} activeClassName="active">
             <FaBell className="icon3-333"/>
-            <span className="menu-text3-333">notifications</span>
+            <span className="menu-text3-333">Notifications</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/stdntconnect" className={"active4-444"} activeClassName="active">
             <FaQuestionCircle className="icon4-444"/>
-            <span className="menu-text4-444">help</span>
+            <span className="menu-text4-444">Help</span>
           </NavLink>
         </li>
       </ul>

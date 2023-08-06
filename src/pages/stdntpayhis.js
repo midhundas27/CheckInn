@@ -21,13 +21,13 @@ const Stdntpayhis = () => {
               <li>
                 <NavLink to="/stdntbillpay" className={"stdntpayhis-active11"} exact activeClassName="active">
                   <FaCreditCard className="stdntpayhis-icon11" />
-                  <span className="stdntpayhismenu-text11">pay bill</span>
+                  <span className="stdntpayhismenu-text11">Pay bill</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/stdntpayhis" className={"stdntpayhis-active22"} activeClassName="active">
                   <FaHistory className="stdntpayhis-icon22" />
-                  <span className="stdntpayhismenu-text22">history</span>
+                  <span className="stdntpayhismenu-text22">History</span>
                 </NavLink>
               </li>
             </ul>

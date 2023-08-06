@@ -1,8 +1,10 @@
-.checkinnstudentmesscut-container {
+.checkinnstudentmesscut-container{
   width: 100%;
   display: flex;
-  overflow: auto;
+  top: 0px;
+  position: absolute;
   max-height: 1024px;
+  overflow: hidden;
   flex-direction: column;
     background-color: rgba(255, 246, 238);
     }
@@ -143,78 +145,8 @@ h1 {
     font-stretch: normal;
     text-decoration: none;
 }
-.current-date
-{
-    top: 288px;
-    left: 350px;
-    position: absolute;
-    font-size: 25px;
-    display: inline-block;
-    font-style: normal;
-    font-family: Outfit;
-    font-weight: 700;
-    line-height: normal;
-    font-stretch: normal;
-   
-}
-.day{
-    padding:12px;
-}
-
-.month-year{
-    padding:3.5px;
-}
 
 
-.react-calendar {
-     top: 320px;
-    left: 350px;
-    position: absolute;
-    width: 700px;
-    
-    background: #ffffff;
-    border: 5px solid #266221;
-    border-radius: 7px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.125em;
-    height: 650px;
-    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
-
-}
-.react-calendar__navigation {
-    display: flex;
-    height: 75px;
-    margin-bottom: 1em;
-}
-.react-calendar button {
-    color: #266221;
-    font-size: 20px;
-    font-weight: 700;
-    font-style: normal;
-    font-family: Outfit;
-    margin-top: 2vw;
-    border: 0;
-    outline: none;
-}
-.react-calendar__month-view__weekdays {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: Outfit;
-    font-size: 20px;
-    color: #ffa74f
-}
-
-.react-calendar__tile--now {
-    background: #ffa74f;
-}
-.react-calendar__tile--active {
-    background: transparent;
-}
-
-.react-calendar__tile--active:enabled:hover, .react-calendar__tile--active:enabled:focus {
-    background: #eeff00;
-}
 .toggle-container
 {
     top:455px;
@@ -354,10 +286,10 @@ opacity: .5;
   opacity: .7;
 }
 .checkinnstudentmesscut-generate {
-  left: 576px;
+  left: 579px;
   color: #ffffff;
   width: 250px;
-  bottom: 70px;
+  bottom: 85px;
   height: 50px;
   position: absolute;
   font-size: 20px;
@@ -376,4 +308,95 @@ opacity: .5;
 }
 .checkinnstudentmesscut-generate:hover {
 opacity: .7;
+}
+.current-date
+{
+    top: 288px;
+    left: 350px;
+    position: absolute;
+    font-size: 25px;
+    display: inline-block;
+    font-style: normal;
+    font-family: Outfit;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+   
+}
+.day{
+    padding:12px;
+}
+
+.month-year{
+    padding:3.5px;
+}
+
+
+.react-calendar {
+     top: 320px;
+    left: 350px;
+    position: absolute;
+    width: 700px;
+    background: #ffffff;
+    border: 5px solid #266221;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3.125em;
+    height: 650px;
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.react-calendar__navigation {
+    display: flex;
+    height: 75px;
+    margin-bottom: 1em;
+}
+.react-calendar__tile:disabled {
+  background-color: #b7b7b720;
+
+}
+.react-calendar__tile {
+  max-width: calc((100% - 6 * 10px) / 7);
+  padding: 17px 10px 17px 10px;
+  background: none;
+  text-align: center;
+  line-height: 16px;
+}
+.react-calendar button {
+  color: #266221;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Outfit;
+  margin: 20px 0px 0px 0px;
+  border: 0;
+  outline: none;
+}
+.react-calendar button:enabled:hover {
+background-color: #eeff00;
+
+cursor: pointer;
+}
+.react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: Outfit;
+  font-size: 20px;
+  color: #ffa74f
+}
+.react-calendar__month-view__days {
+  justify-content: space-evenly;
+}
+
+.react-calendar__tile--now {
+  background: #ffa74f;
+  z-index: 1;
+}
+.react-calendar__tile--active {
+  background: transparent;
+}
+
+.react-calendar__tile--active:enabled:focus{
+background:#eeff00;
 }

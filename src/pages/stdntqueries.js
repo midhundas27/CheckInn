@@ -62,13 +62,13 @@ import { NavLink} from 'react-router-dom';
         <li>
           <NavLink to="/stdntqueries"className={"queriesactive1-111"} exact activeClassName="active">
             <FaEnvelopeOpenText className="queriesicon1-111" />
-            <span className="queriesmenu-text1-111">queries</span>
+            <span className="queriesmenu-text1-111">Queries</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/stdntappaprov" className={"queriesactive2-222"} activeClassName="active">
             <FaRegAddressCard className="queriesicon2-222" />
-            <span className="queriesmenu-text2-222">approvals</span>
+            <span className="queriesmenu-text2-222">Approvals</span>
           </NavLink>
         </li>
       </ul>

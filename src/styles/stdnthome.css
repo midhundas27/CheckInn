@@ -1,8 +1,10 @@
 .checkinnstudenthome-container {
   width: 100%;
+  max-height: 1024px;
   display: flex;
-  overflow: auto;
-  min-height: 100vh;
+  top: 0px;
+  position: absolute;
+  overflow: hidden;
   align-items: center;
   flex-direction: column;
   }

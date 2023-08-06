@@ -17,7 +17,7 @@ body {
     font-stretch: normal;
     text-decoration: none;
 }
-  .stdntsettings-sidebarbox {
+  .stdntsettingsmore-sidebarbox {
     top: 0px;
     left: 0px;
     width: 192px;
@@ -26,18 +26,18 @@ body {
     background-color: #266221;
   }
   
-  .settings-navigation {
+  .settingsmore-navigation {
     margin-top: 20px;
   }
   
-  .settings-sidebar{
+  .settingsmore-sidebar{
     width: 192px;
     height: 1024px;
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
-  .settings-1{
+  .settingsmore-1{
    top: 285px;
     left: 71px;
     position: absolute;
@@ -45,10 +45,10 @@ body {
     height: 50px;
     display: flex;
   }
-.settings-1:hover{
+.settingsmore-1:hover{
   opacity: .6;
 }
-  .settingsicon-1{
+  .settingsmoreicon-1{
     top: 285px;
     left: 71px;
     width: 50px;
@@ -56,7 +56,7 @@ body {
     display: flex;
     fill: #ffffff;
   }
-  .settingstext-1{
+  .settingsmoretext-1{
     top: 50px;
     left: -6px;
      color: #ffffff;
@@ -67,10 +67,10 @@ body {
      white-space: nowrap;
      display: flex;
    }
-   .settingstext-1:hover{
+   .settingsmoretext-1:hover{
     opacity: .6;
   }
-  .settings-2{
+  .settingsmore-2{
     top: 435px;
      left: 71px;
      position: absolute;
@@ -78,10 +78,10 @@ body {
      height: 50px;
      display: flex;
    }
-   .settings-2:hover{
+   .settingsmore-2:hover{
     opacity: .6;
   }
-  .settingsicon-2{
+  .settingsmoreicon-2{
     top: 435px;
     left: 71px;
     width: 50px;
@@ -89,7 +89,7 @@ body {
     display: flex;
     fill: #ffa74f;
   }
-  .settingstext-2{
+  .settingsmoretext-2{
     top: 50px;
     left: -17px;
      color: #ffa74f;
@@ -100,10 +100,10 @@ body {
      display: flex;
      white-space: nowrap;
    }
-   .settingstext-2:hover{
+   .settingsmoretext-2:hover{
     opacity: .6;
   }
-  .settings-3{
+  .settingsmore-3{
     top: 585px;
      left: 71px;
      position: absolute;
@@ -111,10 +111,10 @@ body {
      height: 50px;
      display: flex;
    }
-   .settings-3:hover{
+   .settingsmore-3:hover{
     opacity: .6;
   }
-  .settingsicon-3{
+  .settingsmoreicon-3{
     top: 585px;
     left: 71px;
     width: 50px;
@@ -122,7 +122,7 @@ body {
     display: flex;
     fill: #ffffff 
    }
-  .settingstext-3{
+  .settingsmoretext-3{
     top: 50px;
     left: -40px;
      color: #ffffff;
@@ -133,10 +133,10 @@ body {
      display: flex;
      white-space: nowrap;
    }
-   .settingstext-3:hover{
+   .settingsmoretext-3:hover{
     opacity: .6;
   }
-  .settings-4{
+  .settingsmore-4{
     top: 735px;
      left: 71px;
      position: absolute;
@@ -144,10 +144,10 @@ body {
      height: 50px;
      display: flex;
    }
-   .settings-4:hover{
+   .settingsmore-4:hover{
     opacity: .6;
   }
-  .settingsicon-4{
+  .settingsmoreicon-4{
     top: 735px;
     left: 71px;
     width: 50px;
@@ -156,7 +156,7 @@ body {
     fill: #ffffff;
 
   }
-  .settingstext-4{
+  .settingsmoretext-4{
     top: 50px;
     left: 2px;
      color: #ffffff;
@@ -167,17 +167,17 @@ body {
      display: flex;
      white-space: nowrap;
    }
-   .settingstext-4:hover{
+   .settingsmoretext-4:hover{
     opacity: .6;
   }
-  .stdntsettings-logopic{
+  .stdntsettingsmore-logopic{
     top: 85px;
     left: 1222px;
     width: 101px;
     height: 90px;
     position: absolute;
   }
-  .stdntsettings-headerbox {
+  .stdntsettingsmore-headerbox {
     top: 201px;
     left: 192px;
     height: 130px;
@@ -185,7 +185,7 @@ body {
     position: absolute;
     background-color: #266221;
   }
-  .settingstext-5{
+  .settingsmoretext-5{
     top: 50px;
     left: 150px;
      color: #ffffff;
@@ -196,10 +196,10 @@ body {
 
      
    }
-   .settingstext-5:hover{
+   .settingsmoretext-5:hover{
     opacity: .6;
   }
-  .settingstext-6{
+  .settingsmoretext-6{
     top: 50px;
     left: 500px;
      color: #ffffff;
@@ -210,10 +210,10 @@ body {
 
      
    }
-   .settingstext-6:hover{
+   .settingsmoretext-6:hover{
     opacity: .6;
   }
-  .settingstext-7{
+  .settingsmoretext-7{
     top: 50px;
     left: 900px;
      color: #ffffff;
@@ -224,29 +224,29 @@ body {
 
      
    }
-   .settingstext-7:hover{
+   .settingsmoretext-7:hover{
     opacity: .6;
   }
-  .stdntsettings-form {
+  .stdntsettingsmore-form {
     display: grid;
     width: 900px;
     margin: 600px 0px 100px 70px;
     gap: 15px;
   }
-  .settings-name1{
+  .settingsmore-username1{
     position: absolute;
-    top: 421px;
-    left: 532px;
+    top: 405px;
+    left: 256.5px;
     font-weight: 600;
     font-size: 25px;
   }
-  #settings-name{
-    width: 350px;
+  #settingsmore-username{
+    width: 330px;
     height: 50px;
     display: flex;
     position: absolute;
-    top: 469px;
-    left: 532px;
+    top: 451px;
+    left: 256.5px;
    padding: 0px 10px;
     font-weight: 400;
     font-size: 25px;
@@ -255,21 +255,21 @@ body {
     cursor: pointer;
     background-color: transparent;
   }
-  .settings-admissionNo1{
+  .settingsmore-password1{
     position: absolute;
-    top: 421px;
-    left: 982px;
+    top: 405px;
+    left: 651px;
     font-weight: 600;
     font-size: 25px;
   }
-  #settings-admissionNo{
-    width: 350px;
+  #settingsmore-password{
+    width: 330px;
     height: 50px;
     display: flex;
    padding: 0px 10px;
     position: absolute;
-    top: 469px;
-    left: 982px;
+    top: 451px;
+    left: 651px;
     font-weight: 400;
     font-size: 25px;
     border-radius: 7px;
@@ -278,19 +278,19 @@ body {
     background-color: transparent;
 
   }
-  .settings-email1{
+  .settingsmore-income1{
     position: absolute;
-    top: 737px;
-    left: 532px;
+    top: 555px;
+    left: 651px;
     font-weight: 600;
     font-size: 25px;
   }
-  #settings-email{
-    width: 350px;
+  #settingsmore-income{
+    width: 330px;
     height: 50px;
     position: absolute;
-    top: 785px;
-    left: 532px;
+    top: 601px;
+    left: 651px;
     display: flex;
    padding: 0px 10px;
     font-weight: 400;
@@ -300,20 +300,20 @@ body {
     cursor: pointer;
     background-color: transparent;
   }
-  .settings-phno1{
+  .settingsmore-disfrmhome1{
     position: absolute;
-    top: 737px;
-    left: 982px;
+    top: 555px;
+    left: 1045.5px;
     font-weight: 600;
     font-size: 25px;
   }
-  #settings-phno{
-    width: 350px;
+  #settingsmore-disfrmhome{
+    width: 330px;
     height: 50px;
     display: flex;
     position: absolute;
-    top: 785px;
-    left: 982px;
+    top: 601px;
+    left: 1045.5px;
    padding: 0px 10px;
     font-weight: 400;
     font-size: 25px;
@@ -322,20 +322,20 @@ body {
     cursor: pointer;
     background-color: transparent;
   }
-      .settings-year1{
+      .settingsmore-parntname1{
         position: absolute;
-        top: 579px;
-        left: 532px;
+        top: 405px;
+        left: 1045.5px;
         font-weight: 600;
         font-size: 25px;
       }
-  #settings-year{
-    width: 350px;
+  #settingsmore-parntname{
+    width: 330px;
     height: 50px;
     display: flex;
     position: absolute;
-    top: 627px;
-    left: 532px;
+    top: 451px;
+    left: 1045.5px;
    padding: 0px 10px;
     font-weight: 400;
     font-size: 25px;
@@ -344,21 +344,44 @@ body {
     cursor: pointer;
     background-color: transparent;
   }
-  .settings-department1{
+  .settingsmore-parntphno1{
     position: absolute;
-    top: 579px;
-    left: 982px;
+    top: 555px;
+    left: 256.5px;
     font-weight: 600;
     font-size: 25px;
   }
-  #settings-department{
-    width: 350px;
+  #settingsmore-parntphno{
+    width: 330px;
     height: 50px;
     display: flex;
     position: absolute;
-    top: 627px;
-    left: 982px;
+    top: 601px;
+    left: 256.5px;
    padding: 0px 10px;
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 7px;
+    border: 1px solid #b7b7b7;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  .settingsmore-address1{
+    position: absolute;
+    top: 708px;
+    left: 256.5px;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .settingsmore-address{
+    width: 724px;
+    height: 180px;
+    display: flex;
+    position: absolute;
+    top: 754px;
+    left: 256.5px;
+    padding: 10px 10px 0px 10px;
     font-weight: 400;
     font-size: 25px;
     border-radius: 7px;
@@ -367,75 +390,55 @@ body {
     background-color: transparent;
   }
   
-  .settingspic{
+  .settingsmorepic{
     width: 60px;
     height: 40px;
     position: absolute;
     top: 115px;
     left: 165px;
   }
-
-  .logout-button{
-    top: 900px;
-    left: 982px;
-    color: #ffffff;
-    width: 372px;
+  .moremore-button{
+    top: 820px;
+    left: 1045.5px;
+    color: #000000;
+    width: 352px;
     height: 52px;
     position: absolute;
     font-family: Outfit;
     font-size: 25px;
     font-style: normal;
-    font-weight: 400;
-    border: none;
+    font-weight: 600;
+    padding: 0px 10px 0px 60px;
+    border: 1px solid #b7b7b7;
     border-radius:7px;
     cursor: pointer;
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
-    background-color: #266221;
+    background-color: transparent;
   }
-  .logout-button:hover{
+  .moremore-button:hover{
   opacity: .7;
-}
-.more-button{
-  top: 900px;
-  left: 532px;
-  color: #000000;
-  width: 372px;
-  height: 52px;
-  position: absolute;
-  font-family: Outfit;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 600;
-  padding: 0px 40px 0px 10px;
-  border: 1px solid #b7b7b7;
-  border-radius:7px;
-  cursor: pointer;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
-  background-color: transparent;
-}
-.more-button:hover{
-opacity: .7;
-}
-.moreicon1{
-  top: 9px;
-  right: 88px;
-  width: 32px;
-  position: absolute;
-  height: 32px;
-  display: flex;
-  fill:transparent;
-  stroke-width: 30px;
-  stroke: #000000;
-}
-.moreicon2 {
-  top: 9px;
-  right: 69px;
-  position: absolute;
-  width: 67px;
-  height: 32px;
-  display: flex;
-  fill: #000000;
-}
+  }
+  .moremoreicon1{
+    top: 9px;
+    right: 222px;
+    width: 32px;
+    position: absolute;
+    height: 32px;
+    display: flex;
+    fill:transparent;
+    stroke-width: 30px;
+    stroke: #000000;
+  }
+  .moremoreicon2 {
+    top: 9px;
+    right: 205px;
+    position: absolute;
+    width: 67px;
+    height: 32px;
+    display: flex;
+    fill: #000000;
+  }
+
  
 
  

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/signin.css';
 
-const Checkinnsignin = () => {
+const Signin = () => {
         const [signInAs, setSignInAs] = useState("admin");
         
         const handleSignInAsChange = (event) => {
@@ -108,6 +108,6 @@ const Checkinnsignin = () => {
 }
 
 
-export default Checkinnsignin
+export default Signin
 
 

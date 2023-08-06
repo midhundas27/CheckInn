@@ -12,7 +12,7 @@ const Checkinnstudentmessmenu = () => {
               src="./images/checkinnstudenthomelogo.png"
               alt="logopicstudenthome2824"
               className="checkinnstudenthome-logopicstudenthome" />
-               <NavLink to="/checkinnstudentmesssuggestmenu" className={"checkinnstudentmessmenu-submit1"} activeClassName="active">
+               <NavLink to="/stdntsgstmenu" className={"checkinnstudentmessmenu-submit1"} activeClassName="active">
       <button
                     type="button"
                     className="checkinnstudentmessmenu-submit"
@@ -25,19 +25,19 @@ const Checkinnstudentmessmenu = () => {
               <li>
                 <NavLink to="/checkinnstudentmesscut" className={"messmenu-active11"} exact activeClassName="active">
                   <FaRegCalendarCheck className="messmenu-icon11" />
-                  <span className="messmenumenu-text11">mess calender</span>
+                  <span className="messmenumenu-text11">Mess calendar</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/checkinnstudentmessmenu" className={"messmenu-active22"} activeClassName="active">
                   <FaWpforms className="messmenu-icon22" />
-                  <span className="messmenumenu-text22">mess menu</span>
+                  <span className="messmenumenu-text22">Mess menu</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/checkinnstudentmessbill" className={"messmenu-active33"} activeClassName="active">
                   <FaFileInvoice className="messmenu-icon33" />
-                  <span className="messmenumenu-text33">mess bill</span>
+                  <span className="messmenumenu-text33">Mess bill</span>
                 </NavLink>
               </li>
             </ul>

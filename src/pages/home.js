@@ -43,7 +43,7 @@ const Checkinnhome = (props) => {
                 alt="checkinnhomelogo2824"
                 className="checkinnhome-checkinnhomelogo"
               />
-              <Link to={"/checkinnsignin"}>
+              <Link to={"/signin"}>
               <button type="button" className="checkinnhome-button">
                 Sign In
               </button>

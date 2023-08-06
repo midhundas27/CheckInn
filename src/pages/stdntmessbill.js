@@ -20,19 +20,19 @@ const Checkinnstudentmessbill = () => {
               <li>
                 <NavLink to="/checkinnstudentmesscut" className={"messbill-active11"} exact activeClassName="active">
                   <FaRegCalendarCheck className="messbill-icon11" />
-                  <span className="messbillmenu-text11">mess calender</span>
+                  <span className="messbillmenu-text11">Mess calendar</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/checkinnstudentmessmenu" className={"messbill-active22"} activeClassName="active">
                   <FaWpforms className="messbill-icon22" />
-                  <span className="messbillmenu-text22">mess menu</span>
+                  <span className="messbillmenu-text22">Mess menu</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/checkinnstudentmessbill" className={"messbill-active33"} activeClassName="active">
                   <FaFileInvoice className="messbill-icon33" />
-                  <span className="messbillmenu-text33">mess bill</span>
+                  <span className="messbillmenu-text33">Mess bill</span>
                 </NavLink>
               </li>
             </ul>

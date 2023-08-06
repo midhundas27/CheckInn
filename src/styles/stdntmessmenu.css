@@ -1,8 +1,10 @@
-.checkinnstudentmessmenu-container {
-    width: 1440px;
-height: 1024px;
+.checkinnstudentmessmenu-container{
+    width: 100%;
+    max-height: 1024px;
     display: flex;
-  
+    top: 0px;
+    position: absolute;
+    overflow: hidden;
     flex-direction: column;
     background-color: rgba(255, 246, 238);
     }

@@ -1,8 +1,12 @@
-body {
-    background-color: rgba(255, 246, 238);
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.stdntappaprov-group2 {
+  width: 1440px;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  top: 0px;
+  position: absolute;
+  flex-direction: column;
+  background-color: rgba(255, 246, 238);
   }
   h1 {
     
@@ -22,7 +26,7 @@ body {
     left: 0px;
     width: 192px;
     height: 100%;
-    position: absolute;
+    position: relative;
     background-color: #266221;
   }
   
@@ -112,7 +116,7 @@ body {
   }
 
 .appaprov-container2{
-  margin: 230px auto 0px 279px;
+  margin: -775px auto 0px 279px;
   width: 960px;
   height: 690px;
   background-color: #ffffff;

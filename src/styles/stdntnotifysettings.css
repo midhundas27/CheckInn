@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
   }
-  .stdntnotify-group h1 {
+  h1 {
     
     top: 150px;
     left: 350px;
@@ -17,7 +17,7 @@ body {
     font-stretch: normal;
     text-decoration: none;
 }
-  .stdntnotify-sidebarbox {
+  .stdntnotifysettings-sidebarbox {
     top: 0px;
     left: 0px;
     width: 192px;
@@ -26,18 +26,18 @@ body {
     background-color: #266221;
   }
   
-  .notify-navigation {
+  .notifysettings-navigation {
     margin-top: 20px;
   }
   
-  .notify-sidebar{
+  .notifysettings-sidebar{
     width: 192px;
     height: 1024px;
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
-  .notify-1{
+  .notifysettings-1{
    top: 285px;
     left: 71px;
     position: absolute;
@@ -45,10 +45,10 @@ body {
     height: 50px;
     display: flex;
   }
-.notify-1:hover{
+.notifysettings-1:hover{
   opacity: .6;
 }
-  .notifyicon-1{
+  .notifysettingsicon-1{
     top: 285px;
     left: 71px;
     width: 50px;
@@ -56,7 +56,7 @@ body {
     display: flex;
     fill: #ffffff;
   }
-  .notifytext-1{
+  .notifysettingstext-1{
     top: 50px;
     left: -6px;
      color: #ffffff;
@@ -67,10 +67,10 @@ body {
      white-space: nowrap;
      display: flex;
    }
-   .notifytext-1:hover{
+   .notifysettingstext-1:hover{
     opacity: .6;
   }
-  .notify-2{
+  .notifysettings-2{
     top: 435px;
      left: 71px;
      position: absolute;
@@ -78,53 +78,20 @@ body {
      height: 50px;
      display: flex;
    }
-   .notify-2:hover{
+   .notifysettings-2:hover{
     opacity: .6;
   }
-  .notifyicon-2{
+  .notifysettingsicon-2{
     top: 435px;
     left: 71px;
     width: 50px;
     height: 50px;
     display: flex;
-    fill: #ffffff;
+    fill: #ffa74f;
   }
-  .notifytext-2{
+  .notifysettingstext-2{
     top: 50px;
     left: -17px;
-     color: #ffffff;
-     font-size: 25px;
-     font-family: Outfit;
-     font-weight: 200;
-     position: absolute;
-     display: flex;
-     white-space: nowrap;
-   }
-   .notifytext-2:hover{
-    opacity: .6;
-  }
-  .notify-3{
-    top: 585px;
-     left: 71px;
-     position: absolute;
-     width: 50px;
-     height: 50px;
-     display: flex;
-   }
-   .notify-3:hover{
-    opacity: .6;
-  }
-  .notifyicon-3{
-    top: 585px;
-    left: 71px;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    fill: #ffa74f 
-   }
-  .notifytext-3{
-    top: 50px;
-    left: -40px;
      color: #ffa74f;
      font-size: 25px;
      font-family: Outfit;
@@ -133,10 +100,43 @@ body {
      display: flex;
      white-space: nowrap;
    }
-   .notifytext-3:hover{
+   .notifysettingstext-2:hover{
     opacity: .6;
   }
-  .notify-4{
+  .notifysettings-3{
+    top: 585px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .notifysettings-3:hover{
+    opacity: .6;
+  }
+  .notifysettingsicon-3{
+    top: 585px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff 
+   }
+  .notifysettingstext-3{
+    top: 50px;
+    left: -40px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .notifysettingstext-3:hover{
+    opacity: .6;
+  }
+  .notifysettings-4{
     top: 735px;
      left: 71px;
      position: absolute;
@@ -144,10 +144,10 @@ body {
      height: 50px;
      display: flex;
    }
-   .notify-4:hover{
+   .notifysettings-4:hover{
     opacity: .6;
   }
-  .notifyicon-4{
+  .notifysettingsicon-4{
     top: 735px;
     left: 71px;
     width: 50px;
@@ -156,7 +156,7 @@ body {
     fill: #ffffff;
 
   }
-  .notifytext-4{
+  .notifysettingstext-4{
     top: 50px;
     left: 2px;
      color: #ffffff;
@@ -167,42 +167,81 @@ body {
      display: flex;
      white-space: nowrap;
    }
-   .notifytext-4:hover{
+   .notifysettingstext-4:hover{
     opacity: .6;
   }
-  .notify-container1{
-    display: flex;
-    margin: 230px auto 0px 279px;
-    width: 1060px;
-    height: 690px;
-    background-color: #ffffff;
-    font-size: 25px;
-    border-radius: 10px;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .notify-container1 h2{
-    top: 300px;
-    left: 715px;
-    margin: 25px auto 0 -35px;
-    position: absolute;
-    font-size: 30px;
-    font-family: Outfit;
-    font-weight: 600;
-    font-stretch: normal;
-    text-decoration: none;
- }
-  .stdntnotify-logopic{
+  .stdntnotifysettings-logopic{
     top: 85px;
     left: 1222px;
     width: 101px;
     height: 90px;
     position: absolute;
   }
-  .notifypic-1{
-    display: flex;
-    justify-content: center;
-    margin: 90px auto 0px auto;
+  .stdntnotifysettings-headerbox {
+    top: 201px;
+    left: 192px;
+    height: 130px;
+    width: 1231px;
+    position: absolute;
+    background-color: #266221;
   }
+  .notifysettingstext-5{
+    top: 50px;
+    left: 150px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .notifysettingstext-5:hover{
+    opacity: .6;
+  }
+  .notifysettingstext-6{
+    top: 50px;
+    left: 500px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .notifysettingstext-6:hover{
+    opacity: .6;
+  }
+  .notifysettingstext-7{
+    top: 50px;
+    left: 900px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .notifysettingstext-7:hover{
+    opacity: .6;
+  }
+  .stdntnotifysettings-form {
+    display: grid;
+    width: 900px;
+    margin: 600px 0px 100px 70px;
+    gap: 15px;
+  }
+  
+  .notifysettingspic{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 115px;
+    left: 536px;
+  }
+
  
 
  

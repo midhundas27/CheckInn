@@ -7,7 +7,7 @@ import { NavLink} from 'react-router-dom';
   const Stdntnotify = () => {
    
   return (
-    <div className='stdntnotif-group'>
+    <div className='stdntnotify-group'>
         <h1> Notifications</h1>
     <div className='stdntnotify-sidebarbox'>   
     <div className="stdntnotify-contents">    
@@ -16,25 +16,25 @@ import { NavLink} from 'react-router-dom';
         <li>
           <NavLink to="/checkinnstudenthome"className={"notify-1"} exact activeClassName="active">
             <FaHome className="notifyicon-1" />
-            <span className="notifytext-1">home</span>
+            <span className="notifytext-1">Home</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/stdntsettings" className={"notify-2"} activeClassName="active">
             <FaCog className="notifyicon-2" />
-            <span className="notifytext-2">settings</span>
+            <span className="notifytext-2">Settings</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/stdntnotify" className={"notify-3"} activeClassName="active">
             <FaBell className="notifyicon-3"/>
-            <span className="notifytext-3">notifications</span>
+            <span className="notifytext-3">Notifications</span>
           </NavLink>
         </li>
         <li>
           <NavLink to="/stdntconnect" className={"notify-4"} activeClassName="active">
             <FaQuestionCircle className="notifyicon-4"/>
-            <span className="notifytext-4">help</span>
+            <span className="notifytext-4">Help</span>
           </NavLink>
         </li>
       </ul>

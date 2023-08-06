@@ -4,13 +4,14 @@ import Calendar from 'react-calendar';
 import Switch from 'react-switch';
 import '../styles/stdntmesscut.css';
 import { FaRegCalendarCheck, FaWpforms, FaFileInvoice } from 'react-icons/fa';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Checkinnstudentmesscut = () => {
   const [selectedDate, setSelectedDate] = useState(new Date());
   const [showPopup, setShowPopup] = useState(false);
   const [selectedMeals, setSelectedMeals] = useState(['None']);
   const [selectedDatee, setSelectedDatee] = useState(['None']);
+
   const togglePopup = () => {
     setShowPopup(!showPopup);
   };
@@ -18,11 +19,17 @@ const Checkinnstudentmesscut = () => {
   const handleDateChange = (date) => {
     setSelectedDate(date);
   };
-  const handleDateChangee = (date) => {
-    setSelectedDatee(date);
-    setSelectedMeals(['']);
-  };
 
+  const handleDateChangee = (date) => {
+    const currentDate = new Date();
+    const nextWeek = new Date(currentDate.getTime() + 8 * 24 * 60 * 60 * 1000); // 7 days in milliseconds
+
+    if (date >= currentDate && date <= nextWeek) {
+      setSelectedDatee(date);
+      setSelectedMeals(['']);
+
+    }// Check if the selected date is today and set the class name accordingl
+  };
 
   const handleMealChangee = (meal) => {
     if (selectedMeals.includes(meal)) {
@@ -31,6 +38,28 @@ const Checkinnstudentmesscut = () => {
       setSelectedMeals([...selectedMeals, meal]);
     }
   };
+  const handleFormSubmit = () => {
+    // Process the form submission
+    // ...
+
+    // Reset values after submission
+    setSelectedMeals(['None']);
+    setSelectedDatee(['None']);
+  };
+
+const tileDisabled = ({ activeStartDate, date, view }) => {
+  const currentDate = new Date();
+  const tomorrow = new Date(currentDate);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  const nextWeek = new Date(currentDate.getTime() + 8 * 24 * 60 * 60 * 1000); // 7 days in milliseconds
+
+  // Disable dates outside the range of today's date and next 7 days
+  if (view === 'month') {
+    return date < currentDate || date > nextWeek || date < activeStartDate || date < tomorrow;
+  }
+};
+
+
 
   return (
     <div className="checkinnstudentmesscut-container">
@@ -56,10 +85,14 @@ const Checkinnstudentmesscut = () => {
               <Calendar onChange={() => handleDateChange(new Date())} />
 
             </div>
-            <div className="react-calender"></div>
+            <div className="react-calendar"></div>
             
           </div>
-          <Calendar onChange={handleDateChangee} />
+          <Calendar
+            onChange={handleDateChangee}
+           tileDisabled={tileDisabled}
+           maxDetail="month"
+          />
           <button
                     type="button"
                     className="checkinnstudentmesscut-generate"
@@ -129,6 +162,7 @@ const Checkinnstudentmesscut = () => {
           <button
                     type="button"
                     className="submit-button"
+                    onClick={handleFormSubmit}
                   >
                     Submit
                   </button>
@@ -141,19 +175,19 @@ const Checkinnstudentmesscut = () => {
               <li>
                 <NavLink to="/checkinnstudentmesscut" className={"active11"} exact activeClassName="active">
                   <FaRegCalendarCheck className="icon11" />
-                  <span className="menu-text11">mess calender</span>
+                  <span className="menu-text11">Mess calendar</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/checkinnstudentmessmenu" className={"active22"} activeClassName="active">
                   <FaWpforms className="icon22" />
-                  <span className="menu-text22">mess menu</span>
+                  <span className="menu-text22">Mess Menu</span>
                 </NavLink>
               </li>
               <li>
                 <NavLink to="/checkinnstudentmessbill" className={"active33"} activeClassName="active">
                   <FaFileInvoice className="icon33" />
-                  <span className="menu-text33">mess bill</span>
+                  <span className="menu-text33">Mess bill</span>
                 </NavLink>
               </li>
             </ul>
@@ -164,4 +198,4 @@ const Checkinnstudentmesscut = () => {
   );
 };
 
-export default Checkinnstudentmesscut;
+export default Checkinnstudentmesscut;  

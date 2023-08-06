@@ -113,9 +113,9 @@ const Stdntreg = () => {
           <div className="stdntreg-navigation">
             <ul className="stdntreg-sidebarmenu">
               <li>
-                <NavLink to="/stdntbillpay" className={"stdntreg-active11"} exact activeClassName="active">
+                <NavLink to="/stdntreg" className={"stdntreg-active11"} exact activeClassName="active">
                   <FaRegIdBadge className="stdntreg-icon11" />
-                  <span className="stdntregmenu-text11">registration</span>
+                  <span className="stdntregmenu-text11">Registration</span>
                 </NavLink>
               </li>
             </ul>
@@ -125,8 +125,9 @@ const Stdntreg = () => {
 
 
                 {/* Student Registration Form */}
+                <div className='stdntreg-form-contents'>
       <div className="stdntreg-form-container">
-        <h2>REGISTRATION FORM</h2>
+        <h2>Registration Form</h2>
         <p>Rules and regulations:</p>
         <ol>
           <li> All the students belonging to the categories viz. OTHER STATE / GOVERNMENT OF INDIA NOMINEE should be considered for admission to hostel.</li><br></br>
@@ -239,6 +240,7 @@ const Stdntreg = () => {
           </div>
           <button type="submit">Submit</button>
         </form>
+      </div>
       </div>
     </div>
   );

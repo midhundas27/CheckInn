@@ -1,0 +1,297 @@
+body {
+    background-color: rgba(255, 246, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .stdntabout-sidebarbox {
+    top: 0px;
+    left: 0px;
+    width: 192px;
+    height: 100%;
+    position: absolute;
+    background-color: #266221;
+  }
+  
+  .about-navigation {
+    margin-top: 20px;
+  }
+  
+  .about-sidebar{
+    width: 192px;
+    height: 1024px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .about-1{
+   top: 285px;
+    left: 71px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+.about-1:hover{
+  opacity: .6;
+}
+  .abouticon-1{
+    top: 285px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+  }
+  .abouttext-1{
+    top: 50px;
+    left: -6px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     white-space: nowrap;
+     display: flex;
+   }
+   .abouttext-1:hover{
+    opacity: .6;
+  }
+  .about-2{
+    top: 435px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .about-2:hover{
+    opacity: .6;
+  }
+  .abouticon-2{
+    top: 435px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffa74f;
+  }
+  .abouttext-2{
+    top: 50px;
+    left: -17px;
+     color: #ffa74f;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .abouttext-2:hover{
+    opacity: .6;
+  }
+  .about-3{
+    top: 585px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .about-3:hover{
+    opacity: .6;
+  }
+  .abouticon-3{
+    top: 585px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff 
+   }
+  .abouttext-3{
+    top: 50px;
+    left: -40px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .abouttext-3:hover{
+    opacity: .6;
+  }
+  .about-4{
+    top: 735px;
+     left: 71px;
+     position: absolute;
+     width: 50px;
+     height: 50px;
+     display: flex;
+   }
+   .about-4:hover{
+    opacity: .6;
+  }
+  .abouticon-4{
+    top: 735px;
+    left: 71px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    fill: #ffffff;
+
+  }
+  .abouttext-4{
+    top: 50px;
+    left: 2px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+     display: flex;
+     white-space: nowrap;
+   }
+   .abouttext-4:hover{
+    opacity: .6;
+  }
+  .stdntabout-logopic{
+    top: 85px;
+    left: 1222px;
+    width: 101px;
+    height: 90px;
+    position: absolute;
+  }
+  .stdntabout-headerbox {
+    top: 201px;
+    left: 192px;
+    height: 130px;
+    width: 1231px;
+    position: absolute;
+    background-color: #266221;
+  }
+  .abouttext-5{
+    top: 50px;
+    left: 150px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .abouttext-5:hover{
+    opacity: .6;
+  }
+  .abouttext-6{
+    top: 50px;
+    left: 500px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .abouttext-6:hover{
+    opacity: .6;
+  }
+  .abouttext-7{
+    top: 50px;
+    left: 900px;
+     color: #ffffff;
+     font-size: 25px;
+     font-family: Outfit;
+     font-weight: 200;
+     position: absolute;
+
+     
+   }
+   .abouttext-7:hover{
+    opacity: .6;
+  }
+  .stdntabout-form {
+    display: grid;
+    width: 900px;
+    margin: 600px 0px 100px 70px;
+    gap: 15px;
+  }
+  
+  .aboutpic{
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    top: 115px;
+    left: 908px;
+  }
+.stdntabout-contents{
+  text-align:left;
+}
+.stdntabout-contents p{
+  top: 400px;
+  left: 260px;
+  margin: 25px 50px 0px 14px;
+  position: absolute;
+  font-size: 25px;
+  font-family: Outfit;
+  font-weight: 500;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ .stdntabout-contents h1{
+  top: 330px;
+  left: 650px;
+  position: absolute; 
+  font-size: 40px;
+  font-family: Outfit;
+  font-weight: 700;
+  font-stretch: normal;
+  text-decoration: none;
+ }
+ .rules-button{
+  top: 910px;
+  left: 275px;
+  color: #000000;
+  width: 372px;
+  height: 52px;
+  position: absolute;
+  font-family: Outfit;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 0px 60px 0px 10px;
+  border: 1px solid #b7b7b7;
+  border-radius:7px;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: transparent;
+}
+.rules-button:hover{
+opacity: .7;
+}
+.rulesicon1{
+  top: 9px;
+  right: 48px;
+  width: 32px;
+  position: absolute;
+  height: 32px;
+  display: flex;
+  fill:transparent;
+  stroke-width: 30px;
+  stroke: #000000;
+}
+.rulesicon2 {
+  top: 9px;
+  right: 29px;
+  position: absolute;
+  width: 67px;
+  height: 32px;
+  display: flex;
+  fill: #000000;
+}
+
+ 
